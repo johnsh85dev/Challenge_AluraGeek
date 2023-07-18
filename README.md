@@ -33,3 +33,5 @@ Para ello están pidiendo nuestra ayuda como desarrolladores, el e-commerce debe
 </ul>
 
 Es muy importante que el sitio sea adaptable  para que los clientes puedan comprar fácilmente a través de dispositivos móviles.
+
+Enlace a mi e-commerce: https://johnsh85dev.github.io/Challenge_AluraGeek/
