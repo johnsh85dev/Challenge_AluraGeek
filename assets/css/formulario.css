@@ -1,0 +1,10 @@
+.formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__label {
+  font-weight: 700;
+  line-height: 18.78px;
+  margin-bottom: 0.5rem;
+}

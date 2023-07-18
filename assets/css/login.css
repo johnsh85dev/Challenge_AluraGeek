@@ -1,0 +1,27 @@
+.login {
+  display: flex;
+  justify-content: center;
+  padding: 5rem 3rem;
+}
+
+.login__form {
+  width: 275px;
+  height: 189px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login__form__label {
+  text-align: center;
+  font-weight: 700;
+  line-height: 18.78px;
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .login__form {
+    width: 423px;
+    height: 291px;
+  }
+}

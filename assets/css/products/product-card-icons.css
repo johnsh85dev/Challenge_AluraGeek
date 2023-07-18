@@ -1,0 +1,16 @@
+.product__icons {
+  width: 64px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: -15.5rem;
+  left: 5rem;
+}
+
+.delete__product__icon {
+  cursor: pointer;
+}
+
+.edit__product__icon {
+  cursor: pointer;
+}

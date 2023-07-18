@@ -1,0 +1,19 @@
+.footer__about {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__about {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__about {
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+  }
+}

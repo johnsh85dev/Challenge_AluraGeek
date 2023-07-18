@@ -1,0 +1,6 @@
+.products {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: var(--background-principal);
+}

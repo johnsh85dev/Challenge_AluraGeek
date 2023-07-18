@@ -1,0 +1,59 @@
+.banner__text {
+  position: absolute;
+  top: 25%;
+  padding: 1rem;
+}
+
+.banner__text--title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 25.83px;
+  color: var(--fuente-blanca);
+}
+
+.banner__text--description {
+  font-size: 14px;
+  line-height: 16.44px;
+  color: var(--fuente-blanca);
+  margin: 0.5rem 0;
+}
+
+@media screen and (min-width: 768px) {
+  .banner__text {
+    top: 43%;
+    left: 1rem;
+  }
+
+  .banner__text--title {
+    font-size: 52px;
+  }
+
+  .banner__text--description {
+    font-size: 22px;
+    margin: 2rem 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .banner__text {
+    left: 3rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .banner__text {
+    left: 1rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .banner__text {
+    left: 8rem;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .banner__text {
+    left: 20rem;
+  }
+}

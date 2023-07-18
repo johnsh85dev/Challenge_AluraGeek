@@ -1,0 +1,116 @@
+.header__btn--login {
+  width: 8.3125rem;
+  height: 2.5rem;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--fuente-azul);
+  border: thin solid var(--fuente-azul);
+  background: transparent;
+  cursor: pointer;
+}
+
+.header__btn--menu-admin {
+  width: 10.375rem;
+  height: 2.5rem;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--fuente-azul);
+  border: thin solid var(--fuente-azul);
+  background: transparent;
+  cursor: pointer;
+}
+
+.button--short {
+  width: 118px;
+  height: 40px;
+  margin-top: 0.5rem;
+  background: var(--background-azul);
+  color: var(--fuente-blanca);
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button--large {
+  width: 133px;
+  height: 40px;
+  margin-top: 0.5rem;
+  background: var(--background-azul);
+  color: var(--fuente-blanca);
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button__add__product {
+  width: 150px;
+  height: 40px;
+  margin: 0.5rem 0;
+  background: var(--background-azul);
+  color: var(--fuente-blanca);
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.add-img__button {
+  width: 100%;
+  height: 2.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--fuente-azul);
+  border: thin solid var(--fuente-azul);
+  background: transparent;
+  cursor: pointer;
+}
+
+.add-product__button {
+  width: 100%;
+  height: 51px;
+  margin-top: 0.5rem;
+  background: var(--background-azul);
+  color: var(--fuente-blanca);
+  border: none;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .header__btn--menu-admin {
+    width: 9rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .header__btn--login {
+    width: 11.375rem;
+    height: 3.1875rem;
+  }
+
+  .button--short {
+    width: 129px;
+    height: 51px;
+  }
+
+  .button--large {
+    width: 144px;
+    height: 51px;
+  }
+
+  .button__add__product {
+    width: 163px;
+    height: 51px;
+    margin: 0.5rem 0;
+    background: var(--background-azul);
+    color: var(--fuente-blanca);
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+}

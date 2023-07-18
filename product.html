@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/23a046ecd9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/bases.css" />
+    <link rel="stylesheet" href="assets/css/buttons.css" />
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/product.css" />
+    <link rel="stylesheet" href="assets/css/products.css" />
+    <link rel="stylesheet" href="assets/css/products/products-header.css" />
+    <link rel="stylesheet" href="assets/css/products/products-header-title.css" />
+    <link rel="stylesheet" href="assets/css/products/products-cards.css" />
+    <link rel="stylesheet" href="assets/css/products/product-card.css" />
+    <link rel="stylesheet" href="assets/css/products/product-card-icons.css" />
+    <link rel="stylesheet" href="assets/css/products/product-card-img.css" />
+    <link rel="stylesheet" href="assets/css/products/product-card-title.css" />
+    <link rel="stylesheet" href="assets/css/products/product-card-price.css" />
+    <link rel="stylesheet" href="assets/css/products/product-card-button.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/footer/footer-about.css" />
+    <link rel="stylesheet" href="assets/css/footer/footer-contact.css" />
+    <link rel="stylesheet" href="assets/css/footer/footer-about-logo.css" />
+    <link rel="stylesheet" href="assets/css/footer/footer-about-content.css" />
+    <link rel="stylesheet" href="assets/css/footer/footer-rodapie.css" />
+    <link rel="stylesheet" href="assets/css/formulario.css" />
+    <link rel="stylesheet" href="assets/css/formulario/input.css" />
+    <link rel="stylesheet" href="assets/css/formulario/textarea.css" />
+    <link rel="stylesheet" href="assets/css/login.css" />
+    <link rel="stylesheet" href="assets/css/login/login-input.css" />
+    <link rel="stylesheet" href="assets/css/login/login-button.css" />
+    <title>AluraGeek - Productos</title>
+  </head>
+  <body>
+    <header>
+      <div class="header__login container">
+        <div class="header__logo">
+          <a href="index.html">
+            <img src="assets/img/Logo.svg" alt="Logo de AluraGeek" />
+          </a>
+        </div>
+        <div class="header__searchbar__login">
+          <input
+            class="header__searchbar__input"
+            placeholder="¿Qué deseas buscar?"
+            type="text"
+            id="searchbar" />
+          <a class="header__search" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="product__description container">
+        <img
+          src="assets/img/StarWars/star-wars-1-big.png"
+          alt="mug star StarWars"
+          class="product__img" />
+        <div class="product__description__content container">
+          <span class="product__title">Producto XYZ</span>
+          <span class="product__price">$ 60.00</span>
+          <span class="product__description"
+            >Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet
+            ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio
+            sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste
+            recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat
+            faucibus, dolorum do. Animi porta anim magnam</span
+          >
+        </div>
+      </section>
+      <section class="products container">
+        <div class="products__header">
+          <h2 class="products__header__title">Productos similares</h2>
+        </div>
+        <div class="products__cards">
+          <div class="product__card">
+            <img
+              src="assets/img/Consolas/consolas-1.png"
+              alt="Control Xbox ONE"
+              class="product__card__img" />
+            <p class="product__card__title">Control XYZ</p>
+            <p class="product__card__price">R$ 60,00</p>
+            <button class="product__card__button">Ver producto</button>
+          </div>
+          <div class="product__card">
+            <img
+              src="assets/img/StarWars/star-wars-2.png"
+              alt="star-wars-2"
+              class="product__card__img" />
+            <p class="product__card__title">Producto XYZ</p>
+            <p class="product__card__price">R$ 60,00</p>
+            <button class="product__card__button">Ver producto</button>
+          </div>
+          <div class="product__card">
+            <img
+              src="assets/img/StarWars/star-wars-3.png"
+              alt="star-wars-3"
+              class="product__card__img" />
+            <p class="product__card__title">Producto XYZ</p>
+            <p class="product__card__price">R$ 60,00</p>
+            <button class="product__card__button">Ver producto</button>
+          </div>
+          <div class="product__card">
+            <img
+              src="assets/img/StarWars/star-wars-4.png"
+              alt="star-wars-4"
+              class="product__card__img" />
+            <p class="product__card__title">Producto XYZ</p>
+            <p class="product__card__price">R$ 60,00</p>
+            <button class="product__card__button">Ver producto</button>
+          </div>
+          <div class="product__card disabled">
+            <img
+              src="assets/img/StarWars/star-wars-5.png"
+              alt="star-wars-5"
+              class="product__card__img" />
+            <p class="product__card__title">Producto XYZ</p>
+            <p class="product__card__price">R$ 60,00</p>
+            <button class="product__card__button">Ver producto</button>
+          </div>
+          <div class="product__card disabled">
+            <img
+              src="assets/img/StarWars/star-wars-6.png"
+              alt="star-wars-6"
+              class="product__card__img" />
+            <p class="product__card__title">Producto XYZ</p>
+            <p class="product__card__price">R$ 60,00</p>
+            <button class="product__card__button">Ver producto</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="footer container">
+        <div class="footer__about">
+          <div class="footer__about__logo">
+            <img src="assets/img/logo-icon.svg" alt="logo icon" />
+            <img src="assets/img/logo-text.svg" alt="logo text" />
+          </div>
+          <div class="footer__about__content">
+            <ul class="footer__about__content__list">
+              <li class="footer__list__item"><a href="#">Quienes somos</a></li>
+              <li class="footer__list__item"><a href="#">Política de privacidad</a></li>
+              <li class="footer__list__item"><a href="#">Programa de fidelidad</a></li>
+              <li class="footer__list__item"><a href="#">Nuestras tiendas</a></li>
+              <li class="footer__list__item"><a href="#">Quiero ser franquiciado</a></li>
+              <li class="footer__list__item"><a href="#">Anúncie aquí</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__contact">
+          <form action="" class="formulario">
+            <legend class="form__label">Hable con nosotros</legend>
+            <div class="input__container">
+              <input
+                class="input"
+                type="text"
+                class="input"
+                name="nombre"
+                id="nombre"
+                placeholder="Nombre"
+                required />
+              <label for="nombre" class="input__label">Nombre</label>
+            </div>
+            <div class="textarea__container">
+              <textarea
+                class="input__textarea"
+                name="mensaje"
+                id="mensaje"
+                placeholder="Mensaje"
+                required></textarea>
+              <label for="mensaje" class="input__label--textarea">Escribe tu mensaje</label>
+            </div>
+            <button class="button--large">Enviar mensaje</button>
+          </form>
+        </div>
+      </section>
+      <section class="footer__rodapie">
+        <span class="footer__rodapie--text">Desarrollado por Jonathan Sánchez 2023</span>
+      </section>
+    </footer>
+  </body>
+</html>

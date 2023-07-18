@@ -1,0 +1,17 @@
+.product__card {
+  width: 156px;
+  height: 249px;
+}
+
+@media screen and (min-width: 768px) {
+  .product__card {
+    width: 164px;
+    height: 252px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .product__card {
+    width: 176px;
+  }
+}

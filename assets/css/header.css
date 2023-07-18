@@ -1,0 +1,145 @@
+.header {
+  background: var(--background-blanco);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.header__login {
+  background: var(--background-blanco);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.header__logo {
+  width: 100px;
+  height: 28px;
+}
+
+.header__searchbar {
+  display: flex;
+  order: 2;
+}
+
+.header__searchbar__login {
+  display: flex;
+  order: 2;
+}
+
+.header__search {
+  font-size: 24px;
+}
+
+.header__searchbar__input {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+
+  .header__login {
+    justify-content: flex-start;
+    padding: 1rem 2rem;
+  }
+
+  .header__searchbar {
+    width: 312px;
+    height: 40px;
+    order: 0;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    left: -2rem;
+  }
+
+  .header__searchbar__login {
+    width: 312px;
+    height: 40px;
+    order: 0;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    left: 3rem;
+  }
+
+  .header__search {
+    display: flex;
+    justify-self: flex-end;
+    position: relative;
+    left: -3rem;
+    color: var(--fuente-ceniza-claro);
+    cursor: pointer;
+  }
+
+  .header__searchbar__input {
+    display: flex;
+    width: 272px;
+    height: 100%;
+    background: var(--background-principal);
+    border: none;
+    border-radius: 20px;
+    padding-left: 1rem;
+  }
+
+  .header__searchbar__input:focus {
+    outline: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header__searchbar {
+    width: 433px;
+    left: -5rem;
+  }
+
+  .header__searchbar__input {
+    width: 393px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .header {
+    padding: 2rem 8rem;
+  }
+
+  .header__login {
+    padding: 2rem 8rem;
+  }
+
+  .header__searchbar {
+    width: 433px;
+    left: -10rem;
+  }
+
+  .header__searchbar__login {
+    width: 393px;
+  }
+
+  .header__searchbar__input {
+    width: 393px;
+  }
+
+  .header__logo {
+    width: 176px;
+    height: 50px;
+  }
+
+  .header__logo img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .header {
+    padding: 2rem 20rem;
+  }
+
+  .header__login {
+    padding: 2rem 20rem;
+  }
+}

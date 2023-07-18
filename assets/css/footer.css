@@ -1,0 +1,25 @@
+.footer {
+  background: var(--background-azul-claro);
+  padding: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 2rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .footer {
+    padding: 2rem 8rem;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .footer {
+    padding: 2rem 20rem;
+  }
+}

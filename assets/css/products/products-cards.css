@@ -1,0 +1,27 @@
+.products__cards {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  gap: 1rem;
+  justify-content: space-evenly;
+}
+
+@media screen and (min-width: 550px) {
+  .products__cards {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .products__cards {
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .products__cards {
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto;
+  }
+}

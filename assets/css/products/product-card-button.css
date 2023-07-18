@@ -1,0 +1,10 @@
+.product__card__button {
+  width: 88px;
+  height: 16px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.44px;
+  color: var(--fuente-azul);
+  border: none;
+  cursor: pointer;
+}

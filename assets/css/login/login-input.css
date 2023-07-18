@@ -1,0 +1,21 @@
+.login__input__container {
+  width: 100%;
+  height: 41px;
+  margin: 0.5rem 0;
+}
+
+.login__input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding-left: 0.5rem;
+}
+
+.login__input::placeholder {
+  color: var(--fuente-ceniza-claro);
+}
+
+.login__input:focus {
+  outline: none;
+  border-bottom: medium solid var(--fuente-azul);
+}

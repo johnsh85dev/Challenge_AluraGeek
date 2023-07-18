@@ -1,0 +1,17 @@
+.login__button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.login__button--short {
+  width: 109px;
+  height: 40px;
+  margin-top: 0.5rem;
+  background: var(--background-azul);
+  color: var(--fuente-blanca);
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}

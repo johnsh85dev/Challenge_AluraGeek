@@ -1,0 +1,17 @@
+.footer__contact {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__contact {
+    width: 60%;
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .footer__contact {
+    width: 50%;
+    padding-top: 1rem;
+  }
+}
