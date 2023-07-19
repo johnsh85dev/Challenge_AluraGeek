@@ -6,9 +6,15 @@
   height: 16px;
   font-size: 14px;
   font-weight: 700;
+  background: var(--background-principal);
   color: var(--fuente-azul);
   border: none;
   cursor: pointer;
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.products__header__button:hover {
+  text-shadow: 1px 1px 6px var(--fuente-azul);
 }
 
 .products__header__button img {

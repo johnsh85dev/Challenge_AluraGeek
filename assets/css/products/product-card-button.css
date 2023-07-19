@@ -4,7 +4,17 @@
   font-size: 14px;
   font-weight: 700;
   line-height: 16.44px;
+  background: var(--background-principal);
   color: var(--fuente-azul);
   border: none;
   cursor: pointer;
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.product__card__button:active {
+  text-shadow: 1px 1px 6px var(--fuente-azul);
+}
+
+.product__card__button:hover {
+  text-shadow: 1px 1px 6px var(--fuente-azul);
 }

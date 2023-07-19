@@ -49,30 +49,6 @@
   margin-bottom: 0.5rem;
 }
 
-.file-container {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 10px;
-  border: 1px solid var(--fuente-ceniza-claro);
-}
-
-#preview {
-  margin-top: 10px;
-}
-
-.status-text {
-  padding: 0 10px;
-}
-
-.success {
-  color: var(--fuente-success);
-}
-
-.failure {
-  color: var(--fuente-failure);
-}
-
 @media screen and (min-width: 768px) {
   .add-img {
     flex-direction: row;

@@ -3,6 +3,11 @@
   height: 249px;
 }
 
+.product__card:active {
+  scale: 1.1;
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
 @media screen and (min-width: 768px) {
   .product__card {
     width: 164px;
@@ -13,5 +18,10 @@
 @media screen and (min-width: 1024px) {
   .product__card {
     width: 176px;
+  }
+
+  .product__card:hover {
+    scale: 1.1;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
   }
 }
