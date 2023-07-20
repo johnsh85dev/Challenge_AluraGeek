@@ -156,7 +156,7 @@
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .header__btn--login {
     width: 11.375rem;
     height: 3.1875rem;
