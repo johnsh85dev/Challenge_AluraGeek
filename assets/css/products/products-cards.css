@@ -1,4 +1,6 @@
 .products__cards {
+  width: 100%;
+  height: auto;
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
