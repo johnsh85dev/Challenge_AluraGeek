@@ -4,6 +4,7 @@
   --background-blanco: #ffffff;
   --background-azul: #2a7ae4;
   --shadow: rgba(46, 204, 113, 0.95);
+  --black-shadow: rgba(0, 0, 0, 0.5);
   --link: #673ab7;
 
   --fuente-ceniza-oscuro: #464646;
@@ -41,13 +42,12 @@ body {
   display: none;
 }
 
-@media screen and (min-width: 550px) {
-  .disabled {
-    display: block;
-  }
-}
 @media screen and (min-width: 768px) {
   .disabled {
+    display: none;
+  }
+
+  .disabled-icon {
     display: none;
   }
 

@@ -44,22 +44,29 @@
   <body>
     <header>
       <div class="header container">
-        <div class="header__logo">
-          <a href="index.html">
-            <img src="assets/img/Logo.svg" alt="Logo de AluraGeek" />
-          </a>
-        </div>
-        <div class="header__searchbar">
-          <input
-            class="header__searchbar__input"
-            placeholder="¿Qué deseas buscar?"
-            type="text"
-            id="searchbar" />
-          <a class="header__search" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+        <div class="header__left">
+          <div class="header__logo">
+            <a href="index.html">
+              <img src="assets/img/Logo.svg" alt="Logo de AluraGeek" />
+            </a>
+          </div>
+          <div class="header__searchbar">
+            <input
+              class="header__searchbar__input"
+              placeholder="¿Qué deseas buscar?"
+              type="text"
+              id="searchbar" />
+            <a class="header__search disabled" href="#"
+              ><i class="fa-solid fa-magnifying-glass"></i
+            ></a>
+          </div>
         </div>
         <div class="header__btn">
           <a href="login.html"><button class="header__btn--login">Login</button></a>
         </div>
+        <a class="header__search" href="#"
+          ><i class="fa-solid fa-magnifying-glass disabled-icon"></i
+        ></a>
       </div>
     </header>
     <main>

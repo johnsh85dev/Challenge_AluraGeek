@@ -1,27 +1,10 @@
 .product__card {
-  width: 156px;
-  height: 249px;
+  width: 100%;
+  height: 100%;
 }
 
 .product__card:hover {
-  scale: 1.1;
-  transition: all 0.5s ease;
-}
-
-@media screen and (min-width: 768px) {
-  .product__card {
-    width: 164px;
-    height: 252px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .product__card {
-    width: 176px;
-  }
-
-  .product__card:hover {
-    scale: 1.1;
-    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
-  }
+  scale: calc(105%);
+  box-shadow: 5px 10px 5px var(--black-shadow);
+  transition: all 300ms ease;
 }
