@@ -1,10 +1,10 @@
 .product__icons {
-  width: 100%;
-  height: auto;
+  width: 95%;
+  height: 0px;
   display: flex;
   justify-content: flex-end;
-  position: fixed;
-  top: 1rem;
+  position: relative;
+  top: -95%;
 }
 
 .delete__product__icon {
