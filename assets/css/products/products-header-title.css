@@ -16,6 +16,8 @@
 
 @media screen and (min-width: 1200px) {
   .products__header__title {
-    padding-left: 0;
+    font-size: 2rem;
+    line-height: 37.57px;
+    padding-bottom: 1rem;
   }
 }
