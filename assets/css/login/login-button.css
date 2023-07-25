@@ -11,6 +11,7 @@
   background: var(--background-azul);
   color: var(--fuente-blanca);
   border: 2px solid var(--background-azul);
+  border-radius: 15px;
   font-size: 14px;
   font-weight: 600;
   cursor: pointer;

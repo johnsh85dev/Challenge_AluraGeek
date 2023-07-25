@@ -2,9 +2,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 78px;
+  width: 100px;
   height: 16px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   background: var(--background-principal);
   color: var(--fuente-azul);
@@ -17,23 +17,6 @@
   text-shadow: 1px 1px 6px var(--fuente-azul);
 }
 
-.products__header__button img {
-  width: 16px;
-  height: auto;
-}
-
-@media screen and (min-width: 1024px) {
-  .products__header__button {
-    width: 129px;
-    height: 24px;
-    padding-right: 2rem;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .products__header__button {
-    width: 129px;
-    height: 24px;
-    padding-right: 0;
-  }
+.products__header__button i {
+  font-size: 24px;
 }

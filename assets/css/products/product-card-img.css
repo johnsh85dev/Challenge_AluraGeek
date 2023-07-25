@@ -1,4 +1,9 @@
 .product__card__img {
   width: 100%;
   height: auto;
+  border-radius: 20px 20px 0 0;
+}
+
+.product__card__img:hover {
+  transition: all 300ms ease;
 }

@@ -17,19 +17,17 @@
     <link rel="stylesheet" href="assets/css/bases.css" />
     <link rel="stylesheet" href="assets/css/buttons.css" />
     <link rel="stylesheet" href="assets/css/header.css" />
-    <link rel="stylesheet" href="assets/css/banner/banner.css" />
-    <link rel="stylesheet" href="assets/css/banner/banner-img.css" />
-    <link rel="stylesheet" href="assets/css/banner/banner-text.css" />
     <link rel="stylesheet" href="assets/css/products.css" />
     <link rel="stylesheet" href="assets/css/products/products-header.css" />
     <link rel="stylesheet" href="assets/css/products/products-header-title.css" />
     <link rel="stylesheet" href="assets/css/products/products-header-button.css" />
     <link rel="stylesheet" href="assets/css/products/products-cards.css" />
     <link rel="stylesheet" href="assets/css/products/product-card.css" />
+    <link rel="stylesheet" href="assets/css/products/product-card-icons.css" />
     <link rel="stylesheet" href="assets/css/products/product-card-img.css" />
     <link rel="stylesheet" href="assets/css/products/product-card-title.css" />
     <link rel="stylesheet" href="assets/css/products/product-card-price.css" />
-    <link rel="stylesheet" href="assets/css/products/product-card-button.css" />
+    <link rel="stylesheet" href="assets/css/products/product-card-id.css" />
     <link rel="stylesheet" href="assets/css/footer.css" />
     <link rel="stylesheet" href="assets/css/footer/footer-about.css" />
     <link rel="stylesheet" href="assets/css/footer/footer-contact.css" />
@@ -39,52 +37,36 @@
     <link rel="stylesheet" href="assets/css/formulario.css" />
     <link rel="stylesheet" href="assets/css/formulario/input.css" />
     <link rel="stylesheet" href="assets/css/formulario/textarea.css" />
-    <title>AluraGeek</title>
+    <link rel="stylesheet" href="assets/css/login.css" />
+    <link rel="stylesheet" href="assets/css/login/login-input.css" />
+    <link rel="stylesheet" href="assets/css/login/login-button.css" />
+    <title>AluraGeek - Productos</title>
   </head>
   <body>
     <header>
-      <div class="header container">
-        <div class="header__left">
-          <div class="header__logo">
-            <a href="index.html">
-              <img src="assets/img/Logo.svg" alt="Logo de AluraGeek" />
-            </a>
-          </div>
-          <div class="header__searchbar">
-            <input
-              class="header__searchbar__input"
-              placeholder="¿Qué deseas buscar?"
-              type="text"
-              id="searchbar" />
-            <a class="header__search disabled" href="#"
-              ><i class="fa-solid fa-magnifying-glass"></i
-            ></a>
-          </div>
+      <div class="header__login container">
+        <div class="header__logo">
+          <a href="index.html">
+            <img src="assets/img/Logo.svg" alt="Logo de AluraGeek" />
+          </a>
         </div>
-        <div class="header__btn">
-          <a href="login.html"><button class="header__btn--login">Login</button></a>
+        <div class="header__searchbar__login">
+          <input
+            class="header__searchbar__input"
+            placeholder="¿Qué deseas buscar?"
+            type="text"
+            id="searchbar" />
+          <a class="header__search" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
         </div>
-        <a class="header__search" href="#"
-          ><i class="fa-solid fa-magnifying-glass disabled-icon"></i
-        ></a>
       </div>
     </header>
     <main>
-      <section class="banner">
-        <div class="banner__img"></div>
-        <span class="banner__text">
-          <p class="banner__text--title">Julio Promocional</p>
-          <p class="banner__text--description">Productos seleccionados con 33% de descuento</p>
-          <button class="button--short">Ver Consolas</button>
-        </span>
-      </section>
       <section class="products container">
-        <div class="products__header">
-          <h2 class="products__header__title">Star Wars</h2>
-          <a href="products-all.html"
-            ><button class="products__header__button">
-              Ver todo <i class="fa-solid fa-arrow-right"></i></button
-          ></a>
+        <div class="products__header--add">
+          <h2 class="products__header__title">Todos los productos</h2>
+          <a href="product-add.html"
+            ><button class="button__add__product">Agregar producto</button></a
+          >
         </div>
         <div class="products__cards">
           <div class="product__card">
@@ -94,7 +76,11 @@
               class="product__card__img" />
             <p class="product__card__title">Producto XYZ</p>
             <p class="product__card__price">R$ 60,00</p>
-            <button class="product__card__button"><a href="product.html">Ver producto</a></button>
+            <p class="product__card__id">#1111111</p>
+            <div class="product__icons">
+              <a href="" class="delete__product__icon"><i class="fa-solid fa-trash"></i></a>
+              <a href="" class="edit__product__icon"><i class="fa-solid fa-pen"></i></a>
+            </div>
           </div>
           <div class="product__card">
             <img
@@ -103,7 +89,11 @@
               class="product__card__img" />
             <p class="product__card__title">Producto XYZ</p>
             <p class="product__card__price">R$ 60,00</p>
-            <button class="product__card__button">Ver producto</button>
+            <p class="product__card__id">#1111111</p>
+            <div class="product__icons">
+              <a href="" class="delete__product__icon"><i class="fa-solid fa-trash"></i></a>
+              <a href="" class="edit__product__icon"><i class="fa-solid fa-pen"></i></a>
+            </div>
           </div>
           <div class="product__card">
             <img
@@ -112,7 +102,11 @@
               class="product__card__img" />
             <p class="product__card__title">Producto XYZ</p>
             <p class="product__card__price">R$ 60,00</p>
-            <button class="product__card__button">Ver producto</button>
+            <p class="product__card__id">#1111111</p>
+            <div class="product__icons">
+              <a href="" class="delete__product__icon"><i class="fa-solid fa-trash"></i></a>
+              <a href="" class="edit__product__icon"><i class="fa-solid fa-pen"></i></a>
+            </div>
           </div>
           <div class="product__card">
             <img
@@ -121,37 +115,38 @@
               class="product__card__img" />
             <p class="product__card__title">Producto XYZ</p>
             <p class="product__card__price">R$ 60,00</p>
-            <button class="product__card__button">Ver producto</button>
+            <p class="product__card__id">#1111111</p>
+            <div class="product__icons">
+              <a href="" class="delete__product__icon"><i class="fa-solid fa-trash"></i></a>
+              <a href="" class="edit__product__icon"><i class="fa-solid fa-pen"></i></a>
+            </div>
           </div>
-          <div class="product__card disabled">
+          <div class="product__card">
             <img
               src="assets/img/StarWars/star-wars-5.png"
               alt="star-wars-5"
               class="product__card__img" />
             <p class="product__card__title">Producto XYZ</p>
             <p class="product__card__price">R$ 60,00</p>
-            <button class="product__card__button">Ver producto</button>
+            <p class="product__card__id">#1111111</p>
+            <div class="product__icons">
+              <a href="" class="delete__product__icon"><i class="fa-solid fa-trash"></i></a>
+              <a href="" class="edit__product__icon"><i class="fa-solid fa-pen"></i></a>
+            </div>
           </div>
-          <div class="product__card disabled">
+          <div class="product__card">
             <img
               src="assets/img/StarWars/star-wars-6.png"
               alt="star-wars-6"
               class="product__card__img" />
             <p class="product__card__title">Producto XYZ</p>
             <p class="product__card__price">R$ 60,00</p>
-            <button class="product__card__button">Ver producto</button>
+            <p class="product__card__id">#1111111</p>
+            <div class="product__icons">
+              <a href="" class="delete__product__icon"><i class="fa-solid fa-trash"></i></a>
+              <a href="" class="edit__product__icon"><i class="fa-solid fa-pen"></i></a>
+            </div>
           </div>
-        </div>
-      </section>
-      <section class="products container">
-        <div class="products__header">
-          <h2 class="products__header__title">Consolas</h2>
-          <a href="products-all.html"
-            ><button class="products__header__button">
-              Ver todo <i class="fa-solid fa-arrow-right"></i></button
-          ></a>
-        </div>
-        <div class="products__cards">
           <div class="product__card">
             <img
               src="assets/img/Consolas/consolas-1.png"
@@ -159,7 +154,11 @@
               class="product__card__img" />
             <p class="product__card__title">Control XYZ</p>
             <p class="product__card__price">R$ 60,00</p>
-            <button class="product__card__button">Ver producto</button>
+            <p class="product__card__id">#1111111</p>
+            <div class="product__icons">
+              <a href="" class="delete__product__icon"><i class="fa-solid fa-trash"></i></a>
+              <a href="" class="edit__product__icon"><i class="fa-solid fa-pen"></i></a>
+            </div>
           </div>
           <div class="product__card">
             <img
@@ -168,7 +167,11 @@
               class="product__card__img" />
             <p class="product__card__title">Control y consola XYZ</p>
             <p class="product__card__price">R$ 60,00</p>
-            <button class="product__card__button">Ver producto</button>
+            <p class="product__card__id">#1111111</p>
+            <div class="product__icons">
+              <a href="" class="delete__product__icon"><i class="fa-solid fa-trash"></i></a>
+              <a href="" class="edit__product__icon"><i class="fa-solid fa-pen"></i></a>
+            </div>
           </div>
           <div class="product__card">
             <img
@@ -177,7 +180,11 @@
               class="product__card__img" />
             <p class="product__card__title">Consola XYZ</p>
             <p class="product__card__price">R$ 60,00</p>
-            <button class="product__card__button">Ver producto</button>
+            <p class="product__card__id">#1111111</p>
+            <div class="product__icons">
+              <a href="" class="delete__product__icon"><i class="fa-solid fa-trash"></i></a>
+              <a href="" class="edit__product__icon"><i class="fa-solid fa-pen"></i></a>
+            </div>
           </div>
           <div class="product__card">
             <img
@@ -186,37 +193,38 @@
               class="product__card__img" />
             <p class="product__card__title">Control XYZ</p>
             <p class="product__card__price">R$ 60,00</p>
-            <button class="product__card__button">Ver producto</button>
+            <p class="product__card__id">#1111111</p>
+            <div class="product__icons">
+              <a href="" class="delete__product__icon"><i class="fa-solid fa-trash"></i></a>
+              <a href="" class="edit__product__icon"><i class="fa-solid fa-pen"></i></a>
+            </div>
           </div>
-          <div class="product__card disabled">
+          <div class="product__card">
             <img
               src="assets/img/Consolas/consolas-5.png"
               alt="Consola Xbox ONE"
               class="product__card__img" />
             <p class="product__card__title">Consola XYZ</p>
             <p class="product__card__price">R$ 60,00</p>
-            <button class="product__card__button">Ver producto</button>
+            <p class="product__card__id">#1111111</p>
+            <div class="product__icons">
+              <a href="" class="delete__product__icon"><i class="fa-solid fa-trash"></i></a>
+              <a href="" class="edit__product__icon"><i class="fa-solid fa-pen"></i></a>
+            </div>
           </div>
-          <div class="product__card disabled">
+          <div class="product__card">
             <img
               src="assets/img/Consolas/consolas-6.png"
               alt="Game Boy Color"
               class="product__card__img" />
             <p class="product__card__title">Game Boy Color XYZ</p>
             <p class="product__card__price">R$ 60,00</p>
-            <button class="product__card__button">Ver producto</button>
+            <p class="product__card__id">#1111111</p>
+            <div class="product__icons">
+              <a href="" class="delete__product__icon"><i class="fa-solid fa-trash"></i></a>
+              <a href="" class="edit__product__icon"><i class="fa-solid fa-pen"></i></a>
+            </div>
           </div>
-        </div>
-      </section>
-      <section class="products container">
-        <div class="products__header">
-          <h2 class="products__header__title">Diversos</h2>
-          <a href="products-all.html"
-            ><button class="products__header__button">
-              Ver todo <i class="fa-solid fa-arrow-right"></i></button
-          ></a>
-        </div>
-        <div class="products__cards">
           <div class="product__card">
             <img
               src="assets/img/Diversos/diversos-1.png"
@@ -224,7 +232,11 @@
               class="product__card__img" />
             <p class="product__card__title">Camisa Atari</p>
             <p class="product__card__price">R$ 60,00</p>
-            <button class="product__card__button">Ver producto</button>
+            <p class="product__card__id">#1111111</p>
+            <div class="product__icons">
+              <a href="" class="delete__product__icon"><i class="fa-solid fa-trash"></i></a>
+              <a href="" class="edit__product__icon"><i class="fa-solid fa-pen"></i></a>
+            </div>
           </div>
           <div class="product__card">
             <img
@@ -233,7 +245,11 @@
               class="product__card__img" />
             <p class="product__card__title">Camisa SNES</p>
             <p class="product__card__price">R$ 60,00</p>
-            <button class="product__card__button">Ver producto</button>
+            <p class="product__card__id">#1111111</p>
+            <div class="product__icons">
+              <a href="" class="delete__product__icon"><i class="fa-solid fa-trash"></i></a>
+              <a href="" class="edit__product__icon"><i class="fa-solid fa-pen"></i></a>
+            </div>
           </div>
           <div class="product__card">
             <img
@@ -242,7 +258,11 @@
               class="product__card__img" />
             <p class="product__card__title">Control y consola XYZ</p>
             <p class="product__card__price">R$ 60,00</p>
-            <button class="product__card__button">Ver producto</button>
+            <p class="product__card__id">#1111111</p>
+            <div class="product__icons">
+              <a href="" class="delete__product__icon"><i class="fa-solid fa-trash"></i></a>
+              <a href="" class="edit__product__icon"><i class="fa-solid fa-pen"></i></a>
+            </div>
           </div>
           <div class="product__card">
             <img
@@ -251,25 +271,37 @@
               class="product__card__img" />
             <p class="product__card__title">Control y consola XYZ</p>
             <p class="product__card__price">R$ 60,00</p>
-            <button class="product__card__button">Ver producto</button>
+            <p class="product__card__id">#1111111</p>
+            <div class="product__icons">
+              <a href="" class="delete__product__icon"><i class="fa-solid fa-trash"></i></a>
+              <a href="" class="edit__product__icon"><i class="fa-solid fa-pen"></i></a>
+            </div>
           </div>
-          <div class="product__card disabled">
+          <div class="product__card">
             <img
               src="assets/img/Diversos/diversos-5.png"
               alt="Apple Vision Pro"
               class="product__card__img" />
             <p class="product__card__title">Control y consola XYZ</p>
             <p class="product__card__price">R$ 60,00</p>
-            <button class="product__card__button">Ver producto</button>
+            <p class="product__card__id">#1111111</p>
+            <div class="product__icons">
+              <a href="" class="delete__product__icon"><i class="fa-solid fa-trash"></i></a>
+              <a href="" class="edit__product__icon"><i class="fa-solid fa-pen"></i></a>
+            </div>
           </div>
-          <div class="product__card disabled">
+          <div class="product__card">
             <img
               src="assets/img/Diversos/diversos-6.png"
               alt="Producto pikachu"
               class="product__card__img" />
             <p class="product__card__title">Producto XYZ</p>
             <p class="product__card__price">R$ 60,00</p>
-            <button class="product__card__button">Ver producto</button>
+            <p class="product__card__id">#1111111</p>
+            <div class="product__icons">
+              <a href="" class="delete__product__icon"><i class="fa-solid fa-trash"></i></a>
+              <a href="" class="edit__product__icon"><i class="fa-solid fa-pen"></i></a>
+            </div>
           </div>
         </div>
       </section>

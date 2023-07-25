@@ -6,6 +6,7 @@
   background: transparent;
   color: var(--fuente-azul);
   border: thin solid var(--fuente-azul);
+  border-radius: 15px;
   cursor: pointer;
   outline: 1px solid;
   outline-color: rgba(42, 122, 228, 0.4);
@@ -26,6 +27,7 @@
   font-size: 14px;
   color: var(--fuente-azul);
   border: thin solid var(--fuente-azul);
+  border-radius: 15px;
   background: transparent;
   cursor: pointer;
   outline: 1px solid;
@@ -47,6 +49,7 @@
   background: var(--background-azul);
   color: var(--fuente-blanca);
   border: 2px solid var(--background-azul);
+  border-radius: 15px;
   font-size: 14px;
   font-weight: 600;
   cursor: pointer;
@@ -69,6 +72,7 @@
   background: var(--background-azul);
   color: var(--fuente-blanca);
   border: none;
+  border-radius: 15px;
   font-size: 14px;
   font-weight: 600;
   cursor: pointer;
@@ -91,6 +95,7 @@
   background: var(--background-azul);
   color: var(--fuente-blanca);
   border: none;
+  border-radius: 15px;
   font-size: 14px;
   font-weight: 600;
   cursor: pointer;
@@ -115,6 +120,7 @@
   font-size: 14px;
   color: var(--fuente-azul);
   border: thin solid var(--fuente-azul);
+  border-radius: 15px;
   background: transparent;
   cursor: pointer;
   outline: 1px solid;
@@ -136,6 +142,7 @@
   background: var(--background-azul);
   color: var(--fuente-blanca);
   border: none;
+  border-radius: 15px;
   font-weight: 400;
   cursor: pointer;
   outline: 1px solid;

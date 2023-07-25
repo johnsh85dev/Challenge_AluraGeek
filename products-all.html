@@ -17,17 +17,17 @@
     <link rel="stylesheet" href="assets/css/bases.css" />
     <link rel="stylesheet" href="assets/css/buttons.css" />
     <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/product.css" />
     <link rel="stylesheet" href="assets/css/products.css" />
     <link rel="stylesheet" href="assets/css/products/products-header.css" />
     <link rel="stylesheet" href="assets/css/products/products-header-title.css" />
-    <link rel="stylesheet" href="assets/css/products/products-header-button.css" />
     <link rel="stylesheet" href="assets/css/products/products-cards.css" />
     <link rel="stylesheet" href="assets/css/products/product-card.css" />
     <link rel="stylesheet" href="assets/css/products/product-card-icons.css" />
     <link rel="stylesheet" href="assets/css/products/product-card-img.css" />
     <link rel="stylesheet" href="assets/css/products/product-card-title.css" />
     <link rel="stylesheet" href="assets/css/products/product-card-price.css" />
-    <link rel="stylesheet" href="assets/css/products/product-card-id.css" />
+    <link rel="stylesheet" href="assets/css/products/product-card-button.css" />
     <link rel="stylesheet" href="assets/css/footer.css" />
     <link rel="stylesheet" href="assets/css/footer/footer-about.css" />
     <link rel="stylesheet" href="assets/css/footer/footer-contact.css" />
@@ -62,11 +62,8 @@
     </header>
     <main>
       <section class="products container">
-        <div class="products__header--add">
-          <h2 class="products__header__title">Todos los productos</h2>
-          <a href="product-add.html"
-            ><button class="button__add__product">Agregar producto</button></a
-          >
+        <div class="products__header">
+          <h2 class="products__header__title">Todos los Productos</h2>
         </div>
         <div class="products__cards">
           <div class="product__card">
@@ -76,15 +73,7 @@
               class="product__card__img" />
             <p class="product__card__title">Producto XYZ</p>
             <p class="product__card__price">R$ 60,00</p>
-            <p class="product__card__id">#1111111</p>
-            <div class="product__icons">
-              <a href="" class="delete__product__icon"
-                ><img src="assets/img/delete_icon.svg" alt="delete icon"
-              /></a>
-              <a href="" class="edit__product__icon"
-                ><img src="assets/img/edit_icon.svg" alt="edit icon"
-              /></a>
-            </div>
+            <button class="product__card__button"><a href="product.html">Ver producto</a></button>
           </div>
           <div class="product__card">
             <img
@@ -93,15 +82,7 @@
               class="product__card__img" />
             <p class="product__card__title">Producto XYZ</p>
             <p class="product__card__price">R$ 60,00</p>
-            <p class="product__card__id">#1111111</p>
-            <div class="product__icons">
-              <a href="" class="delete__product__icon"
-                ><img src="assets/img/delete_icon.svg" alt="delete icon"
-              /></a>
-              <a href="" class="edit__product__icon"
-                ><img src="assets/img/edit_icon.svg" alt="edit icon"
-              /></a>
-            </div>
+            <button class="product__card__button">Ver producto</button>
           </div>
           <div class="product__card">
             <img
@@ -110,15 +91,7 @@
               class="product__card__img" />
             <p class="product__card__title">Producto XYZ</p>
             <p class="product__card__price">R$ 60,00</p>
-            <p class="product__card__id">#1111111</p>
-            <div class="product__icons">
-              <a href="" class="delete__product__icon"
-                ><img src="assets/img/delete_icon.svg" alt="delete icon"
-              /></a>
-              <a href="" class="edit__product__icon"
-                ><img src="assets/img/edit_icon.svg" alt="edit icon"
-              /></a>
-            </div>
+            <button class="product__card__button">Ver producto</button>
           </div>
           <div class="product__card">
             <img
@@ -127,49 +100,25 @@
               class="product__card__img" />
             <p class="product__card__title">Producto XYZ</p>
             <p class="product__card__price">R$ 60,00</p>
-            <p class="product__card__id">#1111111</p>
-            <div class="product__icons">
-              <a href="" class="delete__product__icon"
-                ><img src="assets/img/delete_icon.svg" alt="delete icon"
-              /></a>
-              <a href="" class="edit__product__icon"
-                ><img src="assets/img/edit_icon.svg" alt="edit icon"
-              /></a>
-            </div>
+            <button class="product__card__button">Ver producto</button>
           </div>
-          <div class="product__card">
+          <div class="product__card disabled">
             <img
               src="assets/img/StarWars/star-wars-5.png"
               alt="star-wars-5"
               class="product__card__img" />
             <p class="product__card__title">Producto XYZ</p>
             <p class="product__card__price">R$ 60,00</p>
-            <p class="product__card__id">#1111111</p>
-            <div class="product__icons">
-              <a href="" class="delete__product__icon"
-                ><img src="assets/img/delete_icon.svg" alt="delete icon"
-              /></a>
-              <a href="" class="edit__product__icon"
-                ><img src="assets/img/edit_icon.svg" alt="edit icon"
-              /></a>
-            </div>
+            <button class="product__card__button">Ver producto</button>
           </div>
-          <div class="product__card">
+          <div class="product__card disabled">
             <img
               src="assets/img/StarWars/star-wars-6.png"
               alt="star-wars-6"
               class="product__card__img" />
             <p class="product__card__title">Producto XYZ</p>
             <p class="product__card__price">R$ 60,00</p>
-            <p class="product__card__id">#1111111</p>
-            <div class="product__icons">
-              <a href="" class="delete__product__icon"
-                ><img src="assets/img/delete_icon.svg" alt="delete icon"
-              /></a>
-              <a href="" class="edit__product__icon"
-                ><img src="assets/img/edit_icon.svg" alt="edit icon"
-              /></a>
-            </div>
+            <button class="product__card__button">Ver producto</button>
           </div>
           <div class="product__card">
             <img
@@ -178,15 +127,7 @@
               class="product__card__img" />
             <p class="product__card__title">Control XYZ</p>
             <p class="product__card__price">R$ 60,00</p>
-            <p class="product__card__id">#1111111</p>
-            <div class="product__icons">
-              <a href="" class="delete__product__icon"
-                ><img src="assets/img/delete_icon.svg" alt="delete icon"
-              /></a>
-              <a href="" class="edit__product__icon"
-                ><img src="assets/img/edit_icon.svg" alt="edit icon"
-              /></a>
-            </div>
+            <button class="product__card__button">Ver producto</button>
           </div>
           <div class="product__card">
             <img
@@ -195,15 +136,7 @@
               class="product__card__img" />
             <p class="product__card__title">Control y consola XYZ</p>
             <p class="product__card__price">R$ 60,00</p>
-            <p class="product__card__id">#1111111</p>
-            <div class="product__icons">
-              <a href="" class="delete__product__icon"
-                ><img src="assets/img/delete_icon.svg" alt="delete icon"
-              /></a>
-              <a href="" class="edit__product__icon"
-                ><img src="assets/img/edit_icon.svg" alt="edit icon"
-              /></a>
-            </div>
+            <button class="product__card__button">Ver producto</button>
           </div>
           <div class="product__card">
             <img
@@ -212,15 +145,7 @@
               class="product__card__img" />
             <p class="product__card__title">Consola XYZ</p>
             <p class="product__card__price">R$ 60,00</p>
-            <p class="product__card__id">#1111111</p>
-            <div class="product__icons">
-              <a href="" class="delete__product__icon"
-                ><img src="assets/img/delete_icon.svg" alt="delete icon"
-              /></a>
-              <a href="" class="edit__product__icon"
-                ><img src="assets/img/edit_icon.svg" alt="edit icon"
-              /></a>
-            </div>
+            <button class="product__card__button">Ver producto</button>
           </div>
           <div class="product__card">
             <img
@@ -229,49 +154,25 @@
               class="product__card__img" />
             <p class="product__card__title">Control XYZ</p>
             <p class="product__card__price">R$ 60,00</p>
-            <p class="product__card__id">#1111111</p>
-            <div class="product__icons">
-              <a href="" class="delete__product__icon"
-                ><img src="assets/img/delete_icon.svg" alt="delete icon"
-              /></a>
-              <a href="" class="edit__product__icon"
-                ><img src="assets/img/edit_icon.svg" alt="edit icon"
-              /></a>
-            </div>
+            <button class="product__card__button">Ver producto</button>
           </div>
-          <div class="product__card">
+          <div class="product__card disabled">
             <img
               src="assets/img/Consolas/consolas-5.png"
               alt="Consola Xbox ONE"
               class="product__card__img" />
             <p class="product__card__title">Consola XYZ</p>
             <p class="product__card__price">R$ 60,00</p>
-            <p class="product__card__id">#1111111</p>
-            <div class="product__icons">
-              <a href="" class="delete__product__icon"
-                ><img src="assets/img/delete_icon.svg" alt="delete icon"
-              /></a>
-              <a href="" class="edit__product__icon"
-                ><img src="assets/img/edit_icon.svg" alt="edit icon"
-              /></a>
-            </div>
+            <button class="product__card__button">Ver producto</button>
           </div>
-          <div class="product__card">
+          <div class="product__card disabled">
             <img
               src="assets/img/Consolas/consolas-6.png"
               alt="Game Boy Color"
               class="product__card__img" />
             <p class="product__card__title">Game Boy Color XYZ</p>
             <p class="product__card__price">R$ 60,00</p>
-            <p class="product__card__id">#1111111</p>
-            <div class="product__icons">
-              <a href="" class="delete__product__icon"
-                ><img src="assets/img/delete_icon.svg" alt="delete icon"
-              /></a>
-              <a href="" class="edit__product__icon"
-                ><img src="assets/img/edit_icon.svg" alt="edit icon"
-              /></a>
-            </div>
+            <button class="product__card__button">Ver producto</button>
           </div>
           <div class="product__card">
             <img
@@ -280,15 +181,7 @@
               class="product__card__img" />
             <p class="product__card__title">Camisa Atari</p>
             <p class="product__card__price">R$ 60,00</p>
-            <p class="product__card__id">#1111111</p>
-            <div class="product__icons">
-              <a href="" class="delete__product__icon"
-                ><img src="assets/img/delete_icon.svg" alt="delete icon"
-              /></a>
-              <a href="" class="edit__product__icon"
-                ><img src="assets/img/edit_icon.svg" alt="edit icon"
-              /></a>
-            </div>
+            <button class="product__card__button">Ver producto</button>
           </div>
           <div class="product__card">
             <img
@@ -297,15 +190,7 @@
               class="product__card__img" />
             <p class="product__card__title">Camisa SNES</p>
             <p class="product__card__price">R$ 60,00</p>
-            <p class="product__card__id">#1111111</p>
-            <div class="product__icons">
-              <a href="" class="delete__product__icon"
-                ><img src="assets/img/delete_icon.svg" alt="delete icon"
-              /></a>
-              <a href="" class="edit__product__icon"
-                ><img src="assets/img/edit_icon.svg" alt="edit icon"
-              /></a>
-            </div>
+            <button class="product__card__button">Ver producto</button>
           </div>
           <div class="product__card">
             <img
@@ -314,15 +199,7 @@
               class="product__card__img" />
             <p class="product__card__title">Control y consola XYZ</p>
             <p class="product__card__price">R$ 60,00</p>
-            <p class="product__card__id">#1111111</p>
-            <div class="product__icons">
-              <a href="" class="delete__product__icon"
-                ><img src="assets/img/delete_icon.svg" alt="delete icon"
-              /></a>
-              <a href="" class="edit__product__icon"
-                ><img src="assets/img/edit_icon.svg" alt="edit icon"
-              /></a>
-            </div>
+            <button class="product__card__button">Ver producto</button>
           </div>
           <div class="product__card">
             <img
@@ -331,49 +208,25 @@
               class="product__card__img" />
             <p class="product__card__title">Control y consola XYZ</p>
             <p class="product__card__price">R$ 60,00</p>
-            <p class="product__card__id">#1111111</p>
-            <div class="product__icons">
-              <a href="" class="delete__product__icon"
-                ><img src="assets/img/delete_icon.svg" alt="delete icon"
-              /></a>
-              <a href="" class="edit__product__icon"
-                ><img src="assets/img/edit_icon.svg" alt="edit icon"
-              /></a>
-            </div>
+            <button class="product__card__button">Ver producto</button>
           </div>
-          <div class="product__card">
+          <div class="product__card disabled">
             <img
               src="assets/img/Diversos/diversos-5.png"
               alt="Apple Vision Pro"
               class="product__card__img" />
             <p class="product__card__title">Control y consola XYZ</p>
             <p class="product__card__price">R$ 60,00</p>
-            <p class="product__card__id">#1111111</p>
-            <div class="product__icons">
-              <a href="" class="delete__product__icon"
-                ><img src="assets/img/delete_icon.svg" alt="delete icon"
-              /></a>
-              <a href="" class="edit__product__icon"
-                ><img src="assets/img/edit_icon.svg" alt="edit icon"
-              /></a>
-            </div>
+            <button class="product__card__button">Ver producto</button>
           </div>
-          <div class="product__card">
+          <div class="product__card disabled">
             <img
               src="assets/img/Diversos/diversos-6.png"
               alt="Producto pikachu"
               class="product__card__img" />
             <p class="product__card__title">Producto XYZ</p>
             <p class="product__card__price">R$ 60,00</p>
-            <p class="product__card__id">#1111111</p>
-            <div class="product__icons">
-              <a href="" class="delete__product__icon"
-                ><img src="assets/img/delete_icon.svg" alt="delete icon"
-              /></a>
-              <a href="" class="edit__product__icon"
-                ><img src="assets/img/edit_icon.svg" alt="edit icon"
-              /></a>
-            </div>
+            <button class="product__card__button">Ver producto</button>
           </div>
         </div>
       </section>
