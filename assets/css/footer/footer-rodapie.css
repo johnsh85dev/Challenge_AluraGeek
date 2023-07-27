@@ -17,9 +17,9 @@
 
 .footer__social__icons {
   display: flex;
-  gap: 10px;
+  gap: 1rem;
   margin-top: 0.5rem;
-  font-size: 24px;
+  font-size: 2rem;
   color: var(--fuente-azul);
 }
 

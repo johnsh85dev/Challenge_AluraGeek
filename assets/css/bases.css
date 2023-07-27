@@ -6,7 +6,7 @@
   --shadow: rgba(46, 204, 113, 0.95);
   --black-shadow: rgba(0, 0, 0, 0.5);
   --white-shadow: rgba(255, 255, 255, 0.5);
-  --link: #673ab7;
+  --link: rgba(129, 212, 250, 0.8);
 
   --fuente-ceniza-oscuro: #464646;
   --fuente-ceniza-claro: #a2a2a2;
@@ -60,6 +60,10 @@ body {
 @media screen and (min-width: 1200px) {
   .disabled {
     display: block;
+  }
+
+  .container {
+    padding: 1rem 4rem;
   }
 }
 
