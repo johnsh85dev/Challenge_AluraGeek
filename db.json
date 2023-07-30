@@ -167,6 +167,14 @@
       "categorie": "Consolas",
       "description": "qqqq",
       "id": "c5cc0f90-0265-468c-b2a2-e6de18b8ba4d"
+    },
+    {
+      "image": "C:\\fakepath\\consolas-3.png",
+      "name": "Producto XYZ",
+      "price": "1200",
+      "categorie": "Consolas",
+      "description": "nintendo",
+      "id": "17665644-5078-4db8-979c-5248a5f87346"
     }
   ]
 }
