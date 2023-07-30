@@ -12,6 +12,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
     <script src="https://kit.fontawesome.com/23a046ecd9.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="assets/css/normalize.css" />
     <link rel="stylesheet" href="assets/css/bases.css" />
@@ -27,8 +28,8 @@
     <link rel="stylesheet" href="assets/css/formulario.css" />
     <link rel="stylesheet" href="assets/css/formulario/input.css" />
     <link rel="stylesheet" href="assets/css/formulario/textarea.css" />
-    <link rel="stylesheet" href="assets/css/login/login-input.css" />
     <title>AluraGeek - Agregar Producto</title>
+    <link rel="icon" href="assets/img/logo-icon.svg" type="image/x-icon" />
   </head>
   <body>
     <header>
@@ -53,18 +54,19 @@
     </header>
     <main>
       <section class="add-product container">
-        <form action="" class="add-product__form">
+        <form action="" class="add-product__form" data-form>
           <legend class="add-product__form__label">Agregar nuevo producto</legend>
           <div class="add-img">
-            <div class="drop-area">
-              <i class="fa-solid fa-image"></i>
-              <h2>Arrastre para agregar una imagen para el producto</h2>
-            </div>
-            <span class="add-img--span">O</span>
-            <button class="add-img__button">Seleccione Imágen</button>
-            <input type="file" name="imagen" id="input-file" hidden multiple />
+            <label for="input-file" id="drop-area">
+              <input data-img type="file" accept="image/*" id="input-file" hidden multiple />
+              <div id="img-view">
+                <i class="fa-solid fa-image"></i>
+                <p>Arrastra y suelta o da click aquí para subir una imagen</p>
+                <span>Sube cualquier imagen desde tu dispositivo</span>
+              </div>
+            </label>
+            <div id="preview"></div>
           </div>
-          <div id="preview"></div>
           <div class="add-product__inputs">
             <div class="input__container">
               <input
@@ -72,9 +74,13 @@
                 type="text"
                 name="categoria"
                 id="categoria"
+                pattern="[\s\S]{0,20}"
                 placeholder="Categoría"
-                required />
+                required
+                data-tipo="categoria"
+                data-categorie />
               <label for="categoria" class="input__label">Categoría</label>
+              <span class="input__message--error">Este campo no es válido</span>
             </div>
             <div class="input__container">
               <input
@@ -82,30 +88,41 @@
                 type="text"
                 name="nombre-producto"
                 id="nombre-producto"
+                pattern="[\s\S]{0,20}"
                 placeholder="Nombre del producto"
-                required />
+                required
+                data-tipo="nombreproducto"
+                data-nameproduct />
               <label for="nombre-producto" class="input__label">Nombre del producto</label>
+              <span class="input__message--error">Este campo no es válido</span>
             </div>
             <div class="input__container">
               <input
                 class="input"
-                type="number"
+                type="text"
                 name="precio-producto"
                 id="precio-producto"
+                pattern="^(?=.*[0-9])(?!.*[ !@#$%^&*_=+\-])(?!.*[a-z])(?!.*[A-Z]).{0,12}$"
                 placeholder="Precio del producto"
-                required />
+                required
+                data-tipo="precioproducto"
+                data-priceproduct />
               <label for="precio-producto" class="input__label">Precio del producto</label>
+              <span class="input__message--error">Este campo no es válido</span>
             </div>
             <div class="textarea__container">
               <textarea
                 class="input__textarea"
                 name="descripcion-producto"
-                id="descripcion-producto"
+                id="descripcion"
                 placeholder="descripción del producto"
-                required></textarea>
-              <label for="descripcion-producto" class="input__label--textarea"
+                required
+                data-tipo="descripcionproducto"
+                data-descriptionproduct></textarea>
+              <label for="descripcion" class="input__label--textarea"
                 >Descripción del producto</label
               >
+              <span class="textarea__message--error">Este campo no es válido</span>
             </div>
           </div>
           <button class="add-product__button">Agregar Producto</button>
@@ -141,8 +158,10 @@
                 name="nombre"
                 id="nombre"
                 placeholder="Nombre"
-                required />
+                required
+                data-tipo="nombre" />
               <label for="nombre" class="input__label">Nombre</label>
+              <span class="input__message--error">Este campo no es válido</span>
             </div>
             <div class="textarea__container">
               <textarea
@@ -150,8 +169,10 @@
                 name="mensaje"
                 id="mensaje"
                 placeholder="Mensaje"
-                required></textarea>
+                required
+                data-tipo="message"></textarea>
               <label for="mensaje" class="input__label--textarea">Escribe tu mensaje</label>
+              <span class="textarea__message--error">Este campo no es válido</span>
             </div>
             <button class="button--large">Enviar mensaje</button>
           </form>
@@ -172,5 +193,12 @@
         </div>
       </section>
     </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"
+      integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
+    <script type="module" src="assets/js/validaciones.js"></script>
+    <script type="module" src="controllers/create-product-controller.js"></script>
   </body>
 </html>

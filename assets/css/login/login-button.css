@@ -7,7 +7,7 @@
 .login__button--short {
   width: 109px;
   height: 40px;
-  margin-top: 0.5rem;
+  margin-top: 1.5rem;
   background: var(--background-azul);
   color: var(--fuente-blanca);
   border: 2px solid var(--background-azul);

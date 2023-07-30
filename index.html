@@ -40,6 +40,7 @@
     <link rel="stylesheet" href="assets/css/formulario/input.css" />
     <link rel="stylesheet" href="assets/css/formulario/textarea.css" />
     <title>AluraGeek</title>
+    <link rel="icon" href="assets/img/logo-icon.svg" type="image/x-icon" />
   </head>
   <body>
     <header>
@@ -92,8 +93,8 @@
               src="assets/img/StarWars/star-wars-1.png"
               alt="star-wars-1"
               class="product__card__img" />
-            <p class="product__card__title">Producto XYZ</p>
-            <p class="product__card__price">R$ 60,00</p>
+            <p class="product__card__title">Taza StarWars</p>
+            <p class="product__card__price">R$ 40,00</p>
             <button class="product__card__button">
               <a href="product.html">Ver producto</a>
             </button>
@@ -103,7 +104,7 @@
               src="assets/img/StarWars/star-wars-2.png"
               alt="star-wars-2"
               class="product__card__img" />
-            <p class="product__card__title">Producto XYZ</p>
+            <p class="product__card__title">Figura Darth Vader</p>
             <p class="product__card__price">R$ 60,00</p>
             <button class="product__card__button">
               <a href="product.html">Ver producto</a>
@@ -114,8 +115,8 @@
               src="assets/img/StarWars/star-wars-3.png"
               alt="star-wars-3"
               class="product__card__img" />
-            <p class="product__card__title">Producto XYZ</p>
-            <p class="product__card__price">R$ 60,00</p>
+            <p class="product__card__title">Figura Yoda</p>
+            <p class="product__card__price">R$ 50,00</p>
             <button class="product__card__button">
               <a href="product.html">Ver producto</a>
             </button>
@@ -125,8 +126,8 @@
               src="assets/img/StarWars/star-wars-4.png"
               alt="star-wars-4"
               class="product__card__img" />
-            <p class="product__card__title">Producto XYZ</p>
-            <p class="product__card__price">R$ 60,00</p>
+            <p class="product__card__title">Figura StarWars</p>
+            <p class="product__card__price">R$ 90,00</p>
             <button class="product__card__button">
               <a href="product.html">Ver producto</a>
             </button>
@@ -136,8 +137,8 @@
               src="assets/img/StarWars/star-wars-5.png"
               alt="star-wars-5"
               class="product__card__img" />
-            <p class="product__card__title">Producto XYZ</p>
-            <p class="product__card__price">R$ 60,00</p>
+            <p class="product__card__title">Figura Baby Yoda</p>
+            <p class="product__card__price">R$ 55,00</p>
             <button class="product__card__button">
               <a href="product.html">Ver producto</a>
             </button>
@@ -157,7 +158,7 @@
       </section>
       <section class="products container">
         <div class="products__header">
-          <h2 class="products__header__title">Consolas</h2>
+          <h2 id="consolas" class="products__header__title">Consolas</h2>
           <a href="products-all.html"
             ><button class="products__header__button">
               Ver todo <i class="fa-solid fa-arrow-right"></i></button
@@ -329,18 +330,20 @@
           </div>
         </div>
         <div class="footer__contact">
-          <form action="" class="formulario">
+          <form class="formulario">
             <legend class="form__label">Hable con nosotros</legend>
             <div class="input__container">
               <input
                 class="input"
                 type="text"
-                class="input"
                 name="nombre"
+                pattern="[\s\S]{0,40}"
                 id="nombre"
                 placeholder="Nombre"
-                required />
+                required
+                data-tipo="nombre" />
               <label for="nombre" class="input__label">Nombre</label>
+              <span class="input__message--error">Este campo no es válido</span>
             </div>
             <div class="textarea__container">
               <textarea
@@ -348,10 +351,12 @@
                 name="mensaje"
                 id="mensaje"
                 placeholder="Mensaje"
-                required></textarea>
+                required
+                data-tipo="message"></textarea>
               <label for="mensaje" class="input__label--textarea">Escribe tu mensaje</label>
+              <span class="textarea__message--error">Este campo no es válido</span>
             </div>
-            <button class="button--large">Enviar mensaje</button>
+            <button id="submit" type="submit" class="button--large">Enviar mensaje</button>
           </form>
         </div>
       </section>
@@ -370,5 +375,6 @@
         </div>
       </section>
     </footer>
+    <script type="module" src="assets/js/validaciones.js"></script>
   </body>
 </html>

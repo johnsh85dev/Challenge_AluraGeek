@@ -1,0 +1,172 @@
+{
+  "users": [
+    {
+      "nombre": "Jonathan Sánchez",
+      "email": "johnsh85@icloud.com",
+      "password": "johnsh85",
+      "id": "764aff00-0fe0-44ec-a5c5-a0e6e78eff76"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Star Wars"
+    },
+    {
+      "name": "Consolas"
+    }
+  ],
+  "productos": [
+    {
+      "image": "assets/img/StarWars/star-wars-1.png",
+      "name": "Taza StarWars",
+      "price": "$40.00",
+      "categorie": "Star Wars",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, factilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do.Animi porta anim magnum.",
+      "id": "#000000000000001"
+    },
+    {
+      "image": "assets/img/StarWars/star-wars-2.png",
+      "name": "Fig Darth Vader",
+      "price": "$60.00",
+      "categorie": "Star Wars",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, factilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do.Animi porta anim magnum.",
+      "id": "#000000000000002"
+    },
+    {
+      "image": "assets/img/StarWars/star-wars-3.png",
+      "name": "Fig Yoda",
+      "price": "$50.00",
+      "categorie": "Star Wars",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, factilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do.Animi porta anim magnum.",
+      "id": "#000000000000003"
+    },
+    {
+      "image": "assets/img/StarWars/star-wars-4.png",
+      "name": "Fig Captain Phasma",
+      "price": "$75.00",
+      "categorie": "Star Wars",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, factilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do.Animi porta anim magnum.",
+      "id": "#000000000000004"
+    },
+    {
+      "image": "assets/img/StarWars/star-wars-5.png",
+      "name": "Fig Baby Yoda",
+      "price": "$55.00",
+      "categorie": "Star Wars",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, factilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do.Animi porta anim magnum.",
+      "id": "#000000000000005"
+    },
+    {
+      "image": "assets/img/StarWars/star-wars-6.png",
+      "name": "Fig Kylo Ren",
+      "price": "$70.00",
+      "categorie": "Star Wars",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, factilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do.Animi porta anim magnum.",
+      "id": "#000000000000006"
+    },
+    {
+      "image": "assets/img/Consolas/consolas-1.png",
+      "name": "Controle XboxOne",
+      "price": "$30.00",
+      "categorie": "Consolas",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, factilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do.Animi porta anim magnum.",
+      "id": "#000000000000007"
+    },
+    {
+      "image": "assets/img/Consolas/consolas-2.png",
+      "name": "PS5",
+      "price": "$750.00",
+      "categorie": "Consolas",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, factilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do.Animi porta anim magnum.",
+      "id": "#000000000000008"
+    },
+    {
+      "image": "assets/img/Consolas/consolas-3.png",
+      "name": "Nintendo Retro",
+      "price": "$200.00",
+      "categorie": "Consolas",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, factilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do.Animi porta anim magnum.",
+      "id": "#000000000000009"
+    },
+    {
+      "image": "assets/img/Consolas/consolas-4.png",
+      "name": "Controles N-Switch",
+      "price": "$150.00",
+      "categorie": "Consolas",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, factilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do.Animi porta anim magnum.",
+      "id": "#000000000000010"
+    },
+    {
+      "image": "assets/img/Consolas/consolas-5.png",
+      "name": "Xbox One",
+      "price": "$700.00",
+      "categorie": "Consolas",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, factilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do.Animi porta anim magnum.",
+      "id": "#000000000000011"
+    },
+    {
+      "image": "assets/img/Consolas/consolas-6.png",
+      "name": "GameBoy Color",
+      "price": "$250.00",
+      "categorie": "Consolas",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, factilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do.Animi porta anim magnum.",
+      "id": "#000000000000012"
+    },
+    {
+      "image": "assets/img/Diversos/diversos-1.png",
+      "name": "Playera Atari",
+      "price": "$30.00",
+      "categorie": "Diversos",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, factilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do.Animi porta anim magnum.",
+      "id": "#000000000000013"
+    },
+    {
+      "image": "assets/img/Diversos/diversos-2.png",
+      "name": "Playera SNES",
+      "price": "$35.00",
+      "categorie": "Diversos",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, factilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do.Animi porta anim magnum.",
+      "id": "#000000000000014"
+    },
+    {
+      "image": "assets/img/Diversos/diversos-3.png",
+      "name": "Fig Sonic",
+      "price": "$25.00",
+      "categorie": "Diversos",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, factilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do.Animi porta anim magnum.",
+      "id": "#000000000000015"
+    },
+    {
+      "image": "assets/img/Diversos/diversos-4.png",
+      "name": "Radio Alarm",
+      "price": "$35.00",
+      "categorie": "Diversos",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, factilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do.Animi porta anim magnum.",
+      "id": "#000000000000016"
+    },
+    {
+      "image": "assets/img/Diversos/diversos-5.png",
+      "name": "Visor 360",
+      "price": "$140.00",
+      "categorie": "Diversos",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, factilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do.Animi porta anim magnum.",
+      "id": "#000000000000017"
+    },
+    {
+      "image": "assets/img/Diversos/diversos-6.png",
+      "name": "Peluche Pikachu",
+      "price": "$30.00",
+      "categorie": "Diversos",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, factilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do.Animi porta anim magnum.",
+      "id": "#000000000000018"
+    },
+    {
+      "image": "https://www.tradeinn.com/f/13776/137769823/playstation-controlador-dualsense-ps5.jpg",
+      "name": "Producto XYZ",
+      "price": "456",
+      "categorie": "Consolas",
+      "description": "qqqq",
+      "id": "c5cc0f90-0265-468c-b2a2-e6de18b8ba4d"
+    }
+  ]
+}

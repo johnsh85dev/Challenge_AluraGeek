@@ -38,9 +38,9 @@
     <link rel="stylesheet" href="assets/css/formulario/input.css" />
     <link rel="stylesheet" href="assets/css/formulario/textarea.css" />
     <link rel="stylesheet" href="assets/css/login.css" />
-    <link rel="stylesheet" href="assets/css/login/login-input.css" />
     <link rel="stylesheet" href="assets/css/login/login-button.css" />
     <title>AluraGeek - Productos</title>
+    <link rel="icon" href="assets/img/logo-icon.svg" type="image/x-icon" />
   </head>
   <body>
     <header>
@@ -296,8 +296,10 @@
                 name="nombre"
                 id="nombre"
                 placeholder="Nombre"
-                required />
+                required
+                data-tipo="nombre" />
               <label for="nombre" class="input__label">Nombre</label>
+              <span class="input__message--error">Este campo no es válido</span>
             </div>
             <div class="textarea__container">
               <textarea
@@ -305,8 +307,10 @@
                 name="mensaje"
                 id="mensaje"
                 placeholder="Mensaje"
-                required></textarea>
+                required
+                data-tipo="message"></textarea>
               <label for="mensaje" class="input__label--textarea">Escribe tu mensaje</label>
+              <span class="textarea__message--error">Este campo no es válido</span>
             </div>
             <button class="button--large">Enviar mensaje</button>
           </form>
@@ -327,5 +331,6 @@
         </div>
       </section>
     </footer>
+    <script type="module" src="assets/js/validaciones.js"></script>
   </body>
 </html>

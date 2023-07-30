@@ -3,6 +3,7 @@
   --background-azul-claro: #eaf2fd;
   --background-blanco: #ffffff;
   --background-azul: #2a7ae4;
+  --background-invalid: rgba(255, 0, 0, 0.1);
   --shadow: rgba(46, 204, 113, 0.95);
   --black-shadow: rgba(0, 0, 0, 0.5);
   --white-shadow: rgba(255, 255, 255, 0.5);
