@@ -9,12 +9,14 @@ formulario.addEventListener("submit", (event) => {
   const nameProduct = document.querySelector("[data-nameproduct]").value;
   const priceProduct = document.querySelector("[data-priceproduct]").value;
   const descriptionProduct = document.querySelector("[data-descriptionproduct]").value;
-  productServices
-    .createProduct(image, nameProduct, priceProduct, categorie, descriptionProduct)
-    .then((response) => {
-      console.log(response);
-    })
-    .catch((error) => console.log(error));
+  Swal.fire("Excelente!", "Producto agregado!", "success").then(() => {
+    productServices
+      .createProduct(image, nameProduct, priceProduct, categorie, descriptionProduct)
+      .then(() => {
+        window.location.href = "/products-admin.html";
+      })
+      .catch((error) => console.log(error));
+  });
 });
 
 // Upload Image Product
@@ -46,5 +48,6 @@ dropArea.addEventListener("drop", (event) => {
   event.preventDefault();
   inputFile.files = event.dataTransfer.files;
   files = inputFile.files;
+  imageView.classList.remove("active");
   uploadImage();
 });

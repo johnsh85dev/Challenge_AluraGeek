@@ -12,7 +12,6 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
     <script src="https://kit.fontawesome.com/23a046ecd9.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="assets/css/normalize.css" />
     <link rel="stylesheet" href="assets/css/bases.css" />
@@ -28,7 +27,7 @@
     <link rel="stylesheet" href="assets/css/formulario.css" />
     <link rel="stylesheet" href="assets/css/formulario/input.css" />
     <link rel="stylesheet" href="assets/css/formulario/textarea.css" />
-    <title>AluraGeek - Agregar Producto</title>
+    <title>Agregar Producto</title>
     <link rel="icon" href="assets/img/logo-icon.svg" type="image/x-icon" />
   </head>
   <body>
@@ -65,7 +64,6 @@
                 <span>Sube cualquier imagen desde tu dispositivo</span>
               </div>
             </label>
-            <div id="preview"></div>
           </div>
           <div class="add-product__inputs">
             <div class="input__container">
@@ -125,7 +123,7 @@
               <span class="textarea__message--error">Este campo no es válido</span>
             </div>
           </div>
-          <button class="add-product__button">Agregar Producto</button>
+          <button type="submit" class="add-product__button" data-btnAdd="">Agregar Producto</button>
         </form>
       </section>
     </main>
@@ -174,7 +172,7 @@
               <label for="mensaje" class="input__label--textarea">Escribe tu mensaje</label>
               <span class="textarea__message--error">Este campo no es válido</span>
             </div>
-            <button type="submit" class="button--large">Enviar mensaje</button>
+            <button class="button--large">Enviar mensaje</button>
           </form>
         </div>
       </section>
@@ -200,5 +198,6 @@
       referrerpolicy="no-referrer"></script>
     <script type="module" src="assets/js/validaciones.js"></script>
     <script type="module" src="controllers/create-product-controller.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </body>
 </html>

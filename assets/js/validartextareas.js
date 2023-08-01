@@ -47,7 +47,7 @@ function mostrarMensajeDeError(tipoDeTextArea, textarea) {
 
 function validarTextArea(textarea) {
   const message = textarea.value;
-  let maxLength = "120";
+  let maxLength = "150";
   let mensaje = "";
   if (!message) {
   } else if (message.length > maxLength) {
