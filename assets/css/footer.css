@@ -1,7 +1,7 @@
 .footer {
   background: var(--background-azul-claro);
-  padding: 1rem;
-  margin-top: 1.5rem;
+  padding: 1.5rem 1rem;
+  margin-top: 2rem;
 }
 
 @media screen and (min-width: 768px) {
