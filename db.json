@@ -186,6 +186,14 @@
       "categorie": "Consolas",
       "description": "Consola Portátil Play Station Vita Limited Edition",
       "id": "73fee071-9cde-4509-9555-843ecad87b5a"
+    },
+    {
+      "image": "https://www.8bitaesthetics.com/cdn/shop/products/yellowxl_1200x1200.jpg?v=1645286676",
+      "name": "GameBoy Color",
+      "price": "200.00",
+      "categorie": "Consolas",
+      "description": "Edición Especial Pokemón ",
+      "id": "2e3659ad-c0bc-4835-a28a-cb2305486cad"
     }
   ]
 }
