@@ -16,7 +16,7 @@ export function validarInputs(input) {
   }
 }
 
-const tipoDeErrores = ["valueMissing", "patternMismatch", "customError"];
+const tipoDeErrores = ["valueMissing", "patternMismatch"];
 
 const mensajesDeError = {
   nombre: {
@@ -32,6 +32,11 @@ const mensajesDeError = {
     valueMissing: "Ingrese su Contraseña",
     patternMismatch:
       "Al menos 6 caracteres y máximo 12, debe contener una letra minúscula, una letra mayúcula, un número y no puede contener caracteres especiales.",
+  },
+
+  url: {
+    valueMissing: "Ingrese una url de imagen para el producto",
+    patternMismatch: "EL formato URL debe iniciar con https://...",
   },
 
   categoria: {

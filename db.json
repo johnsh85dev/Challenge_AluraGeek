@@ -20,92 +20,172 @@
   ],
   "productos": [
     {
-      "image": "assets/img/Consolas/consolas-2.png",
+      "image": "assets/img/starwars/star-wars-1.png",
+      "name": "Taza StarWars",
+      "price": "40.00",
+      "categorie": "Star Wars",
+      "description": "Taza de colección Captain Phasma",
+      "id": "48624327-b5cd-49e3-8d28-d4a52591b2a2"
+    },
+    {
+      "image": "assets/img/starwars/star-wars-2.png",
+      "name": "Lego Darth Vader",
+      "price": "60.00",
+      "categorie": "Star Wars",
+      "description": "Figura Lego Darth Vader coleccionable",
+      "id": "c21cd583-6a54-4e44-9c2e-0bc81d0c18bb"
+    },
+    {
+      "image": "assets/img/starwars/star-wars-3.png",
+      "name": "Figura Yoda",
+      "price": "60.00",
+      "categorie": "Star Wars",
+      "description": "Figura coleccionable Maestro Yoda",
+      "id": "84801d9c-b2de-4076-a8e8-e9841973e964"
+    },
+    {
+      "image": "assets/img/starwars/star-wars-4.png",
+      "name": "Fig Captain Phasma",
+      "price": "90.00",
+      "categorie": "Star Wars",
+      "description": "Figura de acción coleccionable Captain Phasma",
+      "id": "3c8c2895-0814-4f7b-ae87-14eda24d52ae"
+    },
+    {
+      "image": "assets/img/starwars/star-wars-5.png",
+      "name": "Fig Baby Yoda",
+      "price": "55.00",
+      "categorie": "Star Wars",
+      "description": "Peluche de colección Baby Yoda",
+      "id": "2914cb6f-7934-4753-b73c-0676570c2b1d"
+    },
+    {
+      "image": "assets/img/starwars/star-wars-6.png",
+      "name": "Fig Kylo Ren",
+      "price": "75.00",
+      "categorie": "Star Wars",
+      "description": "Figura coleccionable kylo Ren",
+      "id": "74e9dc79-e8b5-4f03-a6a5-3e15aa4d44d5"
+    },
+    {
+      "image": "assets/img/consolas/consolas-1.png",
+      "name": "Control XboxOne",
+      "price": "40.00",
+      "categorie": "Consolas",
+      "description": "Control Inalámbrico Xbox One White",
+      "id": "94b22fb4-b3c1-4847-8a80-ed8f3071862d"
+    },
+    {
+      "image": "assets/img/consolas/consolas-2.png",
       "name": "PS5",
       "price": "750.00",
       "categorie": "Consolas",
-      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, factilis fusce! Ullam conubia? Sociis, minima malesuada.",
-      "id": "a9b17f7a-5f6a-4b58-9bfd-5028e4a13d7a"
+      "description": "Consola Play Station 5 BlueRay Disc Support",
+      "id": "14c84c07-32cc-4fd2-b883-7ca6d42eed7d"
     },
     {
-      "image": "assets/img/Consolas/consolas-3.png",
+      "image": "assets/img/consolas/consolas-3.png",
       "name": "Nintendo Retro",
-      "price": "200.00",
-      "categorie": "Consolas",
-      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, factilis fusce! Ullam conubia? Sociis, minima malesuada.",
-      "id": "d70dd944-b49c-4ff6-9ca9-bb87163eff25"
-    },
-    {
-      "image": "assets/img/Consolas/consolas-4.png",
-      "name": "Controls N-Switch",
-      "price": "150.00",
-      "categorie": "Consolas",
-      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, factilis fusce! Ullam conubia? Sociis, minima malesuada.",
-      "id": "1b68cceb-192b-49a1-88f0-a38b0ea53971"
-    },
-    {
-      "image": "assets/img/Consolas/consolas-5.png",
-      "name": "Xbox One",
-      "price": "700.00",
-      "categorie": "Consolas",
-      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, factilis fusce! Ullam conubia? Sociis, minima malesuada.",
-      "id": "c9005cca-ece6-44a7-b479-e9fafcc1cdfa"
-    },
-    {
-      "image": "assets/img/Diversos/diversos-1.png",
-      "name": "Playera Atari",
-      "price": "30.00",
-      "categorie": "Diversos",
-      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, factilis fusce! Ullam conubia? Sociis, minima malesuada.",
-      "id": "669b6b01-9c49-464e-8e04-80f7c117e644"
-    },
-    {
-      "image": "assets/img/Diversos/diversos-2.png",
-      "name": "Playera SNES",
-      "price": "35.00",
-      "categorie": "Diversos",
-      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, factilis fusce! Ullam conubia? Sociis, minima malesuada.",
-      "id": "1363af9d-950e-4419-84db-546bac470789"
-    },
-    {
-      "image": "assets/img/Diversos/diversos-3.png",
-      "name": "Fig Sonic",
-      "price": "25.00",
-      "categorie": "Diversos",
-      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, factilis fusce! Ullam conubia? Sociis, minima malesuada.",
-      "id": "fc7d42eb-83e6-49dc-b250-83a7b213d061"
-    },
-    {
-      "image": "assets/img/Diversos/diversos-4.png",
-      "name": "Radio Alarm",
-      "price": "35.00",
-      "categorie": "Diversos",
-      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, factilis fusce! Ullam conubia? Sociis, minima malesuada.",
-      "id": "ec2b50fe-8005-4b06-aaf9-662f2ff46d99"
-    },
-    {
-      "image": "assets/img/Diversos/diversos-5.png",
-      "name": "Visor VR",
-      "price": "140.00",
-      "categorie": "Diversos",
-      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, factilis fusce! Ullam conubia? Sociis, minima malesuada.",
-      "id": "cbd7f46a-7f63-4b4b-843d-0c882a207bb8"
-    },
-    {
-      "image": "assets/img/Consolas/consolas-6.png",
-      "name": "GameBoy Color",
       "price": "250.00",
       "categorie": "Consolas",
-      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, factilis fusce! Ullam conubia? Sociis, minima malesuada.",
-      "id": "cae886a3-98fa-41eb-8acc-d7d907708663"
+      "description": "Consola de videojuegos retro Nintendo",
+      "id": "087342f4-d998-4abd-b43b-c2f7a814de4b"
     },
     {
-      "image": "assets/img/Diversos/diversos-6.png",
-      "name": "Peluche Pikachu",
-      "price": "30.00",
+      "image": "assets/img/consolas/consolas-4.png",
+      "name": "Controls N-Switch",
+      "price": "95.00",
+      "categorie": "Consolas",
+      "description": "Juego de JoyStick Nintendo Switch",
+      "id": "1b7e190c-6969-4833-b88d-8b1b107a5890"
+    },
+    {
+      "image": "assets/img/consolas/consolas-5.png",
+      "name": "Control XboxOne",
+      "price": "700.00",
+      "categorie": "Consolas",
+      "description": "Consola Xbox One 1TB Black Edition",
+      "id": "7e9ec32d-8875-491c-b5fc-e93d07010f8a"
+    },
+    {
+      "image": "assets/img/consolas/consolas-6.png",
+      "name": "GameBoy Color",
+      "price": "190.00",
+      "categorie": "Consolas",
+      "description": "Consola Portátil GameBoy Color con cartuchos incluidos",
+      "id": "a2b06619-092e-4c3e-b156-be7bbb067f8d"
+    },
+    {
+      "image": "assets/img/diversos/diversos-1.png",
+      "name": "Playera Atari",
+      "price": "35.00",
       "categorie": "Diversos",
-      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, factilis fusce! Ullam conubia? Sociis, minima malesuada.",
-      "id": "8058bf43-c373-4935-965f-18def4495f4d"
+      "description": "Playera con estampado de Logo Atari Retro",
+      "id": "af7015fe-dfe5-4068-aeaa-2bf8dede184c"
+    },
+    {
+      "image": "assets/img/diversos/diversos-2.png",
+      "name": "Playera SNES",
+      "price": "40.00",
+      "categorie": "Diversos",
+      "description": "Playera estampada retro SNES",
+      "id": "5ae84c07-953b-4497-ae00-e0d314981b62"
+    },
+    {
+      "image": "assets/img/diversos/diversos-3.png",
+      "name": "Fig Sonic",
+      "price": "45.00",
+      "categorie": "Diversos",
+      "description": "Figura Coleccionable Sonic",
+      "id": "c68bd50a-3f8c-4b59-8a80-162c87d0e7d6"
+    },
+    {
+      "image": "assets/img/diversos/diversos-4.png",
+      "name": "Radio Alarm",
+      "price": "55.00",
+      "categorie": "Diversos",
+      "description": "Radio Reloj Despertador Pink Edition Retro",
+      "id": "83b1dad4-b667-4fa1-bbd6-72ec04954db0"
+    },
+    {
+      "image": "assets/img/diversos/diversos-5.png",
+      "name": "Visor VR",
+      "price": "1200.00",
+      "categorie": "Diversos",
+      "description": "Visor de Realidad Virtual ",
+      "id": "cdb9d03e-9842-4066-8cc3-9f792a9344a8"
+    },
+    {
+      "image": "assets/img/diversos/diversos-6.png",
+      "name": "Peluche Pikachu",
+      "price": "60.00",
+      "categorie": "Diversos",
+      "description": "Peluche Gigante de colección Pokemón ",
+      "id": "ccf401ce-d500-49c2-b1b0-f78f9379695a"
+    },
+    {
+      "image": "https://i5.walmartimages.com.mx/mg/gm/1p/images/product-images/img_large/00501099376150-2l.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "name": "Baby Yoda",
+      "price": "45.00",
+      "categorie": "Star Wars",
+      "description": "Figura Coleccionable Baby Yoda",
+      "id": "ea41ed1e-0984-4ab9-95af-7b61a20ae1b1"
+    },
+    {
+      "image": "https://i5.walmartimages.com.mx/mg/gm/3pp/asr/6310f0ad-5c54-4104-9098-2cbe9312aef4.a0f6c56404ea2869b45a14e3a692910f.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "name": "PS5",
+      "price": "34.00",
+      "categorie": "Consolas",
+      "description": "Oferta Play Station Fake",
+      "id": "3a96f645-f5ec-4043-b92d-32327b5cbee1"
+    },
+    {
+      "image": "https://articles-img.sftcdn.net/f_auto,t_article_cover_l/auto-mapping-folder/sites/2/2023/06/ps5.jpg",
+      "name": "PS5",
+      "price": "650.00",
+      "categorie": "Consolas",
+      "description": "Consola Play Satation 5 Digital Version",
+      "id": "ae4224ae-8585-4cb3-afd6-c21fc5c467a1"
     }
   ]
 }

@@ -4,10 +4,8 @@ const createNewProduct = (image, name, price, id) => {
   const product = document.createElement("div");
   product.classList.add("product__card");
   const content = `
-  <img src=${image} alt="star-wars-1" class="product__card__img" />
-  <p class="product__card__title">${name}</p>
-  <p class="product__card__price">$${price}</p>
-  <p class="product__card__id">${id}</p>
+  <div class="product__card__img">
+  <img src=${image} alt="star-wars-1"/>
   <div class="product__icons">
     <a class="delete__product__icon" id="${id}">
       <i class="fa-solid fa-trash"></i>
@@ -15,6 +13,12 @@ const createNewProduct = (image, name, price, id) => {
     <a class="edit__product__icon">
       <i class="fa-solid fa-pen"></i>
     </a>
+  </div>
+  </div>
+  <div class="product__card__text">
+  <p class="product__card__title">${name}</p>
+  <p class="product__card__price">$${price}</p>
+  <p class="product__card__id">${id}</p>
   </div>
 `;
   product.innerHTML = content;

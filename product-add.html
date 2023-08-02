@@ -55,17 +55,22 @@
       <section class="add-product container">
         <form class="add-product__form" data-form>
           <legend class="add-product__form__label">Agregar nuevo producto</legend>
-          <div class="add-img">
-            <label for="input-file" id="drop-area">
-              <input data-img type="file" accept="image/*" id="input-file" hidden multiple />
-              <div id="img-view">
-                <i class="fa-solid fa-image"></i>
-                <p>Arrastra y suelta o da click aquí para subir una imagen</p>
-                <span>Sube cualquier imagen desde tu dispositivo</span>
-              </div>
-            </label>
-          </div>
           <div class="add-product__inputs">
+            <div class="input__container">
+              <input
+                class="input"
+                type="url"
+                pattern="https?://.+"
+                name="url"
+                id="url"
+                placeholder="URL de la imagen"
+                required
+                data-tipo="url"
+                data-urlImg
+                required />
+              <label for="url" class="input__label">URL de la imagen</label>
+              <span class="input__message--error">Este campo no es válido</span>
+            </div>
             <div class="input__container">
               <input
                 class="input"
