@@ -1,0 +1,53 @@
+import { productServices } from "../service/product-service.js";
+
+const formulario = document.querySelector("[data-form]");
+
+const getInfo = () => {
+  const url = new URL(window.location);
+  const id = url.searchParams.get("id");
+
+  if (id === null) {
+    Swal.fire({
+      icon: "error",
+      title: "Oops...",
+      text: "Ocurrió un error!",
+    });
+  }
+
+  const urlImg = document.querySelector("[data-urlImg]");
+  const categorieProduct = document.querySelector("[data-categorie]");
+  const nameProduct = document.querySelector("[data-nameproduct]");
+  const priceProduct = document.querySelector("[data-priceproduct]");
+  const descriptionProduct = document.querySelector("[data-descriptionproduct]");
+
+  productServices.detailProduct(id).then((product) => {
+    urlImg.value = product.image;
+    categorieProduct.value = product.categorie;
+    nameProduct.value = product.name;
+    priceProduct.value = product.price;
+    descriptionProduct.value = product.description;
+  });
+};
+
+getInfo();
+
+formulario.addEventListener("submit", (event) => {
+  event.preventDefault();
+  const url = new URL(window.location);
+  const id = url.searchParams.get("id");
+
+  const urlImg = document.querySelector("[data-urlImg]").value;
+  const categorieProduct = document.querySelector("[data-categorie]").value;
+  const nameProduct = document.querySelector("[data-nameproduct]").value;
+  const priceProduct = document.querySelector("[data-priceproduct]").value;
+  const descriptionProduct = document.querySelector("[data-descriptionproduct]").value;
+
+  Swal.fire("Excelente!", "El producto se actualizó correctamente!", "success").then(() => {
+    productServices
+      .updateProduct(urlImg, nameProduct, priceProduct, categorieProduct, descriptionProduct, id)
+      .then(() => {
+        window.location.href = "products-admin.html";
+      })
+      .catch((error) => console.log(error));
+  });
+});

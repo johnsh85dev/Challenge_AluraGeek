@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="assets/css/bases.css" />
     <link rel="stylesheet" href="assets/css/buttons.css" />
     <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/add-product/add-product.css" />
     <link rel="stylesheet" href="assets/css/footer.css" />
     <link rel="stylesheet" href="assets/css/footer/footer-about.css" />
     <link rel="stylesheet" href="assets/css/footer/footer-contact.css" />
@@ -26,20 +27,18 @@
     <link rel="stylesheet" href="assets/css/formulario.css" />
     <link rel="stylesheet" href="assets/css/formulario/input.css" />
     <link rel="stylesheet" href="assets/css/formulario/textarea.css" />
-    <link rel="stylesheet" href="assets/css/login.css" />
-    <link rel="stylesheet" href="assets/css/login/login-button.css" />
-    <title>AluraGeek - Login</title>
+    <title>Editar Producto</title>
     <link rel="icon" href="assets/img/logo-icon.svg" type="image/x-icon" />
   </head>
   <body>
     <header>
-      <div class="header__login container">
+      <div class="header container">
         <div class="header__logo">
           <a href="index.html">
             <img src="assets/img/Logo.svg" alt="Logo de AluraGeek" />
           </a>
         </div>
-        <div class="header__searchbar__login">
+        <div class="header__searchbar">
           <input
             class="header__searchbar__input"
             placeholder="¿Qué deseas buscar?"
@@ -47,40 +46,89 @@
             id="searchbar" />
           <a class="header__search" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
         </div>
+        <div class="header__btn">
+          <a href=""><button class="header__btn--menu-admin">Menú administrador</button></a>
+        </div>
       </div>
     </header>
     <main>
-      <section class="login container">
-        <form action="products-admin.html" method="" class="login__form">
-          <legend class="login__form__label">Iniciar Sesión</legend>
-          <div class="input__container">
-            <input
-              class="input"
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Escriba su correo electrónico"
-              required
-              data-tipo="email" />
-            <label for="email" class="input__label">Correo Electrónico</label>
-            <span class="input__message--error">Este campo no es válido</span>
+      <section class="add-product container">
+        <form class="add-product__form" data-form>
+          <legend class="add-product__form__label">Editar producto</legend>
+          <div class="add-product__inputs">
+            <div class="input__container">
+              <input
+                class="input"
+                type="url"
+                pattern="https?://.+"
+                name="url"
+                id="url"
+                placeholder="URL de la imagen"
+                required
+                data-tipo="url"
+                data-urlImg
+                required />
+              <label for="url" class="input__label">URL de la imagen</label>
+              <span class="input__message--error">Este campo no es válido</span>
+            </div>
+            <div class="input__container">
+              <input
+                class="input"
+                type="text"
+                name="categoria"
+                id="categoria"
+                pattern="[\s\S]{0,20}"
+                placeholder="Categoría"
+                required
+                data-tipo="categoria"
+                data-categorie />
+              <label for="categoria" class="input__label">Categoría</label>
+              <span class="input__message--error">Este campo no es válido</span>
+            </div>
+            <div class="input__container">
+              <input
+                class="input"
+                type="text"
+                name="nombre-producto"
+                id="nombre-producto"
+                pattern="[\s\S]{0,20}"
+                placeholder="Nombre del producto"
+                required
+                data-tipo="nombreproducto"
+                data-nameproduct />
+              <label for="nombre-producto" class="input__label">Nombre del producto</label>
+              <span class="input__message--error">Este campo no es válido</span>
+            </div>
+            <div class="input__container">
+              <input
+                class="input"
+                type="text"
+                name="precio-producto"
+                id="precio-producto"
+                pattern="^(?=.*[0-9])(?!.*[ !@#$%^&*_=+\-])(?!.*[a-z])(?!.*[A-Z]).{0,12}$"
+                placeholder="Precio del producto"
+                required
+                data-tipo="precioproducto"
+                data-priceproduct />
+              <label for="precio-producto" class="input__label">Precio del producto</label>
+              <span class="input__message--error">Este campo no es válido</span>
+            </div>
+            <div class="textarea__container">
+              <textarea
+                class="input__textarea"
+                name="descripcion-producto"
+                id="descripcion"
+                placeholder="descripción del producto"
+                required
+                data-tipo="descripcionproducto"
+                data-descriptionproduct></textarea>
+              <label for="descripcion" class="input__label--textarea"
+                >Descripción del producto</label
+              >
+              <span class="textarea__message--error">Este campo no es válido</span>
+            </div>
           </div>
-          <div class="input__container">
-            <input
-              class="input"
-              type="password"
-              name="password"
-              id="password"
-              placeholder="Escriba su contraseña"
-              pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+\-]).{6,12}$"
-              required
-              data-tipo="password" />
-            <label for="password" class="input__label">Contraseña</label>
-            <span class="input__message--error">Este campo no es válido</span>
-          </div>
-          <div class="login__button">
-            <a href="products-admin.html"><button class="login__button--l">Entrar</button></a>
-          </div>
+          <button type="submit" class="add-product__button" data-btnAdd="">Editar Producto</button>
         </form>
       </section>
     </main>
@@ -148,6 +196,13 @@
         </div>
       </section>
     </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"
+      integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
     <script type="module" src="assets/js/validaciones.js"></script>
+    <script type="module" src="controllers/update-product-controller.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </body>
 </html>

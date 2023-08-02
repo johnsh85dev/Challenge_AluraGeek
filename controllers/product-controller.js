@@ -10,7 +10,9 @@ const createNewProduct = (image, name, price, id) => {
     <a class="delete__product__icon" id="${id}">
       <i class="fa-solid fa-trash"></i>
     </a>
-    <a class="edit__product__icon">
+    <a 
+      href="product-edit.html?id=${id}" 
+      class="edit__product__icon">
       <i class="fa-solid fa-pen"></i>
     </a>
   </div>
@@ -18,7 +20,7 @@ const createNewProduct = (image, name, price, id) => {
   <div class="product__card__text">
   <p class="product__card__title">${name}</p>
   <p class="product__card__price">$${price}</p>
-  <p class="product__card__id">${id}</p>
+  <p class="product__card__id">id: ${id}</p>
   </div>
 `;
   product.innerHTML = content;

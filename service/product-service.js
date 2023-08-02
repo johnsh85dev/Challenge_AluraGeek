@@ -24,8 +24,26 @@ const deleteProduct = (id) => {
   });
 };
 
+const detailProduct = (id) => {
+  return fetch(`http://localhost:3000/productos/${id}`).then((response) => response.json());
+};
+
+const updateProduct = (image, name, price, categorie, description, id) => {
+  return fetch(`http://localhost:3000/productos/${id}`, {
+    method: "PUT",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ image, name, price, categorie, description }),
+  })
+    .then((response) => response)
+    .catch((error) => console.log(error));
+};
+
 export const productServices = {
   listProducts,
   createProduct,
   deleteProduct,
+  detailProduct,
+  updateProduct,
 };
