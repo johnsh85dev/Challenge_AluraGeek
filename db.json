@@ -194,6 +194,38 @@
       "categorie": "Consolas",
       "description": "Edición Especial Pokemón ",
       "id": "2e3659ad-c0bc-4835-a28a-cb2305486cad"
+    },
+    {
+      "image": "https://www.timesticking.com/wp-content/uploads/2019/07/news_romainjeromepokemon_body-2016-11-04-09-06-58-635.jpg",
+      "name": "Reloj Pikachu",
+      "price": "45.00",
+      "categorie": "Diversos",
+      "description": "Reloj Colección Pokemón",
+      "id": "8a21e409-9977-4b39-bf6d-faff83764d7a"
+    },
+    {
+      "image": "https://image.spreadshirtmedia.com/image-server/v1/compositions/T347A4PA4306PT17X1Y39D1033696708W24999H7575/views/1,width=550,height=550,appearanceId=4,backgroundColor=00224C,noPt=true/playstation-shape-neon-t-shirt-femme.jpg",
+      "name": "Playera Play Station",
+      "price": "30.00",
+      "categorie": "Diversos",
+      "description": "Playera Edición Especial PS",
+      "id": "7b2031ea-531e-4136-83af-9fde6f871dd8"
+    },
+    {
+      "image": "https://shop.hasbro.com/_next/image?url=https%3A%2F%2Fwww.hasbro.com%2Fcommon%2Fproductimages%2Fes_LAM%2F56E521FA96714D3283FC7689ACD676A4%2F9049704f68c6ce4fd5652e8a3ee7919820e23ec0.jpg&w=828&q=75",
+      "name": "Fig Darth Maul",
+      "price": "95.00",
+      "categorie": "Star Wars",
+      "description": "Figura colección Darth Maul Star Wars",
+      "id": "2b0d2a67-d9e2-4d9e-97bd-3dcdbf687bdd"
+    },
+    {
+      "image": "https://cl.buscafs.com/www.levelup.com/public/uploads/images/709807/709807.jpg",
+      "name": "Control PS5 spider",
+      "price": "150.00",
+      "categorie": "Consolas",
+      "description": "Control PS5 Special Edition Spider Man 2",
+      "id": "a80ea9be-12aa-482e-8cb8-769dd088f3c8"
     }
   ]
 }
