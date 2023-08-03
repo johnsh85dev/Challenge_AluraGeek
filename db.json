@@ -20,7 +20,7 @@
   ],
   "productos": [
     {
-      "image": "https://m.media-amazon.com/images/I/512xic5PrzL._AC_SX569_.jpg",
+      "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/StarWars/star-wars-1.png",
       "name": "Taza StarWars",
       "price": "40.00",
       "categorie": "Star Wars",
@@ -28,7 +28,7 @@
       "id": "48624327-b5cd-49e3-8d28-d4a52591b2a2"
     },
     {
-      "image": "https://www.lego.com/cdn/cs/set/assets/blt3d70a46fc7434bbe/75304-PDP-202105-Block-Standard-1.jpg?fit=crop&format=jpg&quality=80&width=635&height=440&dpr=1",
+      "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/StarWars/star-wars-2.png",
       "name": "Lego Darth Vader",
       "price": "60.00",
       "categorie": "Star Wars",
@@ -36,7 +36,7 @@
       "id": "c21cd583-6a54-4e44-9c2e-0bc81d0c18bb"
     },
     {
-      "image": "https://m.media-amazon.com/images/I/81yJ0WQJs+L._AC_SX679_.jpg",
+      "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/StarWars/star-wars-3.png",
       "name": "Figura Yoda",
       "price": "60.00",
       "categorie": "Star Wars",
@@ -44,7 +44,7 @@
       "id": "84801d9c-b2de-4076-a8e8-e9841973e964"
     },
     {
-      "image": "https://tooys.mx/media/catalog/product/cache/39c7ff5a74bd9fa282a021db605b774d/s/t/stormtrooper_first_order_de_star_wars_the_force_awakens_por_sideshow_premium_format_00_1.jpg",
+      "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/StarWars/star-wars-4.png",
       "name": "Fig Captain Phasma",
       "price": "90.00",
       "categorie": "Star Wars",
@@ -52,7 +52,7 @@
       "id": "3c8c2895-0814-4f7b-ae87-14eda24d52ae"
     },
     {
-      "image": "https://images.unsplash.com/photo-1601814933824-fd0b574dd592?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmFieSUyMHlvZGF8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+      "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/StarWars/star-wars-5.png",
       "name": "Fig Baby Yoda",
       "price": "55.00",
       "categorie": "Star Wars",
@@ -60,7 +60,7 @@
       "id": "2914cb6f-7934-4753-b73c-0676570c2b1d"
     },
     {
-      "image": "https://1.bp.blogspot.com/-v_c8jw6cs7E/XZc_FTQiamI/AAAAAAAC-Xw/HrsmlFHllAUjx-0SjUEBe7Kqp8iBwjVnACLcBGAsYHQ/s1600/mj26.jpg",
+      "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/StarWars/star-wars-6.png",
       "name": "Fig Kylo Ren",
       "price": "75.00",
       "categorie": "Star Wars",
@@ -68,7 +68,7 @@
       "id": "74e9dc79-e8b5-4f03-a6a5-3e15aa4d44d5"
     },
     {
-      "image": "https://i.blogs.es/96f5cd/guia-control-xbox-2023/450_1000.jpeg",
+      "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/Consolas/consolas-1.png",
       "name": "Control XboxOne",
       "price": "40.00",
       "categorie": "Consolas",
@@ -76,7 +76,7 @@
       "id": "94b22fb4-b3c1-4847-8a80-ed8f3071862d"
     },
     {
-      "image": "https://imagenes.expreso.ec/files/image_700_402/uploads/2022/02/09/6204488d0f7f0.jpeg",
+      "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/Consolas/consolas-2.png",
       "name": "PS5",
       "price": "750.00",
       "categorie": "Consolas",
@@ -84,7 +84,7 @@
       "id": "14c84c07-32cc-4fd2-b883-7ca6d42eed7d"
     },
     {
-      "image": "https://www.nintenderos.com/wp-content/uploads/2019/06/NES.jpg",
+      "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/Consolas/consolas-3.png",
       "name": "Nintendo Retro",
       "price": "250.00",
       "categorie": "Consolas",
@@ -92,7 +92,7 @@
       "id": "087342f4-d998-4abd-b43b-c2f7a814de4b"
     },
     {
-      "image": "https://i.blogs.es/b9fb6e/nintendo-switch-3061236_1280/840_560.jpg",
+      "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/Consolas/consolas-4.png",
       "name": "Controls N-Switch",
       "price": "95.00",
       "categorie": "Consolas",
@@ -100,7 +100,7 @@
       "id": "1b7e190c-6969-4833-b88d-8b1b107a5890"
     },
     {
-      "image": "https://www.leparisien.fr/resizer/bt8d9qOm00egKzg0wy1jfllo0Qs=/932x582/cloudfront-eu-central-1.images.arcpublishing.com/lpguideshopping/3JP53NZKYVCF3GBJ7KC3OEBOWA.jpg",
+      "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/Consolas/consolas-5.png",
       "name": "Consola XboxOne",
       "price": "700.00",
       "categorie": "Consolas",
@@ -108,7 +108,7 @@
       "id": "7e9ec32d-8875-491c-b5fc-e93d07010f8a"
     },
     {
-      "image": "https://i.etsystatic.com/32425691/r/il/0d13e9/4221744607/il_570xN.4221744607_2n2n.jpg",
+      "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/Consolas/consolas-6.png",
       "name": "GameBoy Color",
       "price": "190.00",
       "categorie": "Consolas",
@@ -116,7 +116,7 @@
       "id": "a2b06619-092e-4c3e-b156-be7bbb067f8d"
     },
     {
-      "image": "https://i.ebayimg.com/images/g/i9gAAOSw89BfVst4/s-l1600.jpg",
+      "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/Diversos/diversos-1.png",
       "name": "Playera Atari",
       "price": "35.00",
       "categorie": "Diversos",
@@ -124,7 +124,7 @@
       "id": "af7015fe-dfe5-4068-aeaa-2bf8dede184c"
     },
     {
-      "image": "https://i.etsystatic.com/19807950/r/il/78180f/2428502411/il_fullxfull.2428502411_a4qj.jpg",
+      "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/Diversos/diversos-2.png",
       "name": "Playera SNES",
       "price": "40.00",
       "categorie": "Diversos",
@@ -132,7 +132,7 @@
       "id": "5ae84c07-953b-4497-ae00-e0d314981b62"
     },
     {
-      "image": "https://www.aceroymagia.com/Images/articulo/figura-sonic-the-hedgehog/02-Figura-Sonic-The-Hedgehog.jpg",
+      "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/Diversos/diversos-3.png",
       "name": "Fig Sonic",
       "price": "45.00",
       "categorie": "Diversos",
@@ -140,7 +140,7 @@
       "id": "c68bd50a-3f8c-4b59-8a80-162c87d0e7d6"
     },
     {
-      "image": "https://media.istockphoto.com/id/1427377619/es/foto/m%C3%A1s-radio-despertador-digital-sentado-en-una-mesa-de-madera.jpg?s=612x612&w=0&k=20&c=mERcB6nG5tKGrBnlpPtT7Uip3sZsb3aarAG-l-7kipw=",
+      "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/Diversos/diversos-4.png",
       "name": "Radio Alarm",
       "price": "55.00",
       "categorie": "Diversos",
@@ -148,7 +148,7 @@
       "id": "83b1dad4-b667-4fa1-bbd6-72ec04954db0"
     },
     {
-      "image": "https://img.unocero.com/2021/01/aPPLE-vr-1024x513.jpg",
+      "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/Diversos/diversos-5.png",
       "name": "Visor VR",
       "price": "1200.00",
       "categorie": "Diversos",
@@ -156,7 +156,7 @@
       "id": "cdb9d03e-9842-4066-8cc3-9f792a9344a8"
     },
     {
-      "image": "https://fabricadesuenos.com.mx/cdn/shop/files/Pikachu-01.jpg?v=1685491864",
+      "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/Diversos/diversos-6.png",
       "name": "Peluche Pikachu",
       "price": "20.00",
       "categorie": "Diversos",
@@ -194,14 +194,6 @@
       "categorie": "Consolas",
       "description": "Edición Especial Pokemón ",
       "id": "2e3659ad-c0bc-4835-a28a-cb2305486cad"
-    },
-    {
-      "image": "https://www.egames.news/__export/1631473239153/sites/debate/img/2021/09/12/ps5_dual_sense.jpg_242310155.jpg",
-      "name": "Control PS5 spider",
-      "price": "180.00",
-      "categorie": "Consolas",
-      "description": "Control Dualshock sense PS5 Special Edition Spider Man 2",
-      "id": "47b869ea-9385-4d68-aa9a-1c5fdbc8aba4"
     }
   ]
 }
