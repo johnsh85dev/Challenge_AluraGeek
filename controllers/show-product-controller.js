@@ -1,6 +1,6 @@
 import { productServices } from "../service/product-service.js";
 
-const showAllProducts = (image, name, price, id) => {
+const showAllProducts = (image, name, price, categorie, id) => {
   const product = document.createElement("div");
   product.classList.add("product__card");
   const content = `
@@ -10,6 +10,7 @@ const showAllProducts = (image, name, price, id) => {
   <div class="product__card__text">
     <p class="product__card__title">${name}</p>
     <p class="product__card__price">$${price}</p>
+    <p class="product__card__categorie" hidden>${categorie}</p>
     <button class="product__card__button">
       <a data-btnCard 
       href="/product.html?id=${id}">Ver producto</a>
@@ -25,9 +26,13 @@ const sectionAll = document.querySelector("[data-products]");
 productServices
   .listProducts()
   .then((products) => {
-    products.forEach(({ image, name, price, id }) => {
-      const showProduct = showAllProducts(image, name, price, id);
+    products.forEach(({ image, name, price, categorie, id }) => {
+      const showProduct = showAllProducts(image, name, price, categorie, id);
       sectionAll.appendChild(showProduct);
     });
   })
   .catch((error) => console.log(error));
+
+// export const showProduct = {
+//   showAllProducts,
+// };

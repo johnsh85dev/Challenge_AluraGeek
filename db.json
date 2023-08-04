@@ -24,7 +24,7 @@
       "name": "Taza StarWars",
       "price": "40.00",
       "categorie": "Star Wars",
-      "description": "Taza de colección Captain Phasma",
+      "description": "Taza de colección Star Wars figura Captain Phasma, excelente calidad",
       "id": "48624327-b5cd-49e3-8d28-d4a52591b2a2"
     },
     {
@@ -172,7 +172,7 @@
       "id": "ea41ed1e-0984-4ab9-95af-7b61a20ae1b1"
     },
     {
-      "image": "https://static.independent.co.uk/2022/07/19/14/lego%20atari%20indybest.png?width=1200",
+      "image": "https://images.squarespace-cdn.com/content/v1/51967abae4b0fe8d0161031f/1658210849464-P0STFHIAY3IJCK12K8I1/LEGO+Atari+10306+Box+Front+-+Large.png?format=750w",
       "name": "Lego Atari Retro",
       "price": "175.00",
       "categorie": "Consolas",
@@ -180,7 +180,7 @@
       "id": "3a96f645-f5ec-4043-b92d-32327b5cbee1"
     },
     {
-      "image": "https://www.videogameschronicle.com/files/2021/04/vita-psp.jpg",
+      "image": "https://s3.eu-central-1.wasabisys.com/mediacloud-anime/2022/07/RFI2f5bE-IMG_6027.jpg",
       "name": "PSP Vita",
       "price": "380.00",
       "categorie": "Consolas",
@@ -244,12 +244,20 @@
       "id": "bb3c4402-f937-4371-9cbd-3165b5bd4c2b"
     },
     {
-      "image": "https://www.mundodeportivo.com/alfabeta/hero/2020/01/pokemon-peluche-charmander.jpg?width=1200&aspect_ratio=16:9",
+      "image": "https://despeluchados.com/cdn/shop/products/product-image-1170532213_800x.jpg?v=1575044770",
       "name": "Peluche Charmander",
       "price": "45.00",
       "categorie": "Diversos",
       "description": "Peluche Pokemón Charmander",
       "id": "060fd7a0-d246-4a8d-a952-e3d6231b77e9"
+    },
+    {
+      "image": "https://www.passion-estampes.com/figurines/star-wars/figurine-star-wars-bb8.jpg",
+      "name": "BB-8",
+      "price": "40.00",
+      "categorie": "Star Wars",
+      "description": "Figura de colección Star Wars BB-8 ",
+      "id": "1fe0f2d6-5df1-46de-85df-8994a080c5b3"
     }
   ]
 }
