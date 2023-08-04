@@ -6,7 +6,7 @@ export function validarInputs(input) {
 
   if (input.validity.valid) {
     input.parentElement.classList.remove("input__container--invalid");
-    input.parentElement.querySelector(".input__message--error").innerHTML = "";
+    input.parentElement.querySelector(".input__message--error").innerHTML = " ";
   } else {
     input.parentElement.classList.add("input__container--invalid");
     input.parentElement.querySelector(".input__message--error").innerHTML = mostrarMensajeDeError(
@@ -40,8 +40,8 @@ const mensajesDeError = {
   },
 
   categoria: {
-    valueMissing: "Ingrese una categoría para el producto",
-    patternMismatch: "El Nombre debe contener un máximo de 20 caracteres",
+    valueMissing: "Ingrese una categoría para el producto [Star Wars, Consolas, Diversos]",
+    patternMismatch: "Categoría no válida",
   },
 
   nombreproducto: {
@@ -77,3 +77,8 @@ function validarInput(input) {
   }
   input.setCustomValidity(mensaje);
 }
+
+// const searchBar = document.querySelector("[data-search]");
+// searchBar.addEventListener("focus", () => {
+//   searchBar.input.value;
+// });

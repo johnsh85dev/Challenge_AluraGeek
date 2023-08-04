@@ -61,27 +61,24 @@
       </div>
     </header>
     <main>
-      <section class="product__content">
-        <div class="product__img__content">
-          <img src="assets/img/StarWars/star-wars-1.png" alt="taza-starwars" />
-        </div>
-        <div class="product__description__content">
-          <span class="product__title">Producto XYZ</span>
-          <span class="product__price">$ 60.00</span>
-          <span class="product__description"
-            >Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet
-            ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio
-            sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste
-            recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat
-            faucibus, dolorum do. Animi porta anim magnam</span
-          >
+      <section data-productDescription>
+        <div class="product__content">
+          <div class="product__img__content">
+            <img src="" alt="imagen producto" data-img />
+          </div>
+          <div class="product__description__content">
+            <span class="product__title" data-name></span>
+            <span class="product__price" data-price></span>
+            <span class="product__categorie" data-categorie hidden></span>
+            <span class="product__description" data-description></span>
+          </div>
         </div>
       </section>
       <section class="products container">
         <div class="products__header">
           <h2 class="products__header__title">Productos similares</h2>
         </div>
-        <div class="products__cards">
+        <div data-similarProducts class="products__cards">
           <!-- <div class="product__card">
             <div class="product__card__img">
               <img src="assets/img/Consolas/consolas-1.png" alt="Control Xbox ONE" />
@@ -222,5 +219,6 @@
       </section>
     </footer>
     <script type="module" src="assets/js/validaciones.js"></script>
+    <script type="module" src="controllers/description-product-controller.js"></script>
   </body>
 </html>

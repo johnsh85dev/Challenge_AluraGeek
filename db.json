@@ -226,6 +226,30 @@
       "categorie": "Consolas",
       "description": "Control PS5 Special Edition Spider Man 2",
       "id": "a80ea9be-12aa-482e-8cb8-769dd088f3c8"
+    },
+    {
+      "image": "https://www.nicekicks.com/files/2021/11/pokemon-converse-chuck-taylor-all-star-pikachu-release-date-010-750x750.jpg",
+      "name": "Tenis Pokemón",
+      "price": "250.00",
+      "categorie": "Diversos",
+      "description": "Sneakers Pokemon Special Edition 25 Anniversary ",
+      "id": "644a017e-51ff-43c1-810f-84277b13eb01"
+    },
+    {
+      "image": "https://www.mayoreodidactico.mx/wp-content/uploads/2021/06/8199-0.jpg",
+      "name": "Puzzle Star Wars",
+      "price": "30.00",
+      "categorie": "Star Wars",
+      "description": "Puzzle Star Wars Official",
+      "id": "bb3c4402-f937-4371-9cbd-3165b5bd4c2b"
+    },
+    {
+      "image": "https://www.mundodeportivo.com/alfabeta/hero/2020/01/pokemon-peluche-charmander.jpg?width=1200&aspect_ratio=16:9",
+      "name": "Peluche Charmander",
+      "price": "45.00",
+      "categorie": "Diversos",
+      "description": "Peluche Pokemón Charmander",
+      "id": "060fd7a0-d246-4a8d-a952-e3d6231b77e9"
     }
   ]
 }

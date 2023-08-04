@@ -5,7 +5,7 @@ const createNewProduct = (image, name, price, id) => {
   product.classList.add("product__card");
   const content = `
   <div class="product__card__img">
-  <img src=${image} alt="star-wars-1"/>
+  <img src=${image} alt="imagen producto"/>
   <div class="product__icons">
     <a class="delete__product__icon" id="${id}">
       <i class="fa-solid fa-trash"></i>
