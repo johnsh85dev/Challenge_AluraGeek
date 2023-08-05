@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,19 +18,17 @@
     <link rel="stylesheet" href="assets/css/bases.css" />
     <link rel="stylesheet" href="assets/css/buttons.css" />
     <link rel="stylesheet" href="assets/css/header.css" />
-    <link rel="stylesheet" href="assets/css/banner/banner.css" />
-    <link rel="stylesheet" href="assets/css/banner/banner-img.css" />
-    <link rel="stylesheet" href="assets/css/banner/banner-text.css" />
     <link rel="stylesheet" href="assets/css/products.css" />
     <link rel="stylesheet" href="assets/css/products/products-header.css" />
     <link rel="stylesheet" href="assets/css/products/products-header-title.css" />
     <link rel="stylesheet" href="assets/css/products/products-header-button.css" />
     <link rel="stylesheet" href="assets/css/products/products-cards.css" />
     <link rel="stylesheet" href="assets/css/products/product-card.css" />
+    <link rel="stylesheet" href="assets/css/products/product-card-icons.css" />
     <link rel="stylesheet" href="assets/css/products/product-card-img.css" />
     <link rel="stylesheet" href="assets/css/products/product-card-title.css" />
     <link rel="stylesheet" href="assets/css/products/product-card-price.css" />
-    <link rel="stylesheet" href="assets/css/products/product-card-button.css" />
+    <link rel="stylesheet" href="assets/css/products/product-card-id.css" />
     <link rel="stylesheet" href="assets/css/footer.css" />
     <link rel="stylesheet" href="assets/css/footer/footer-about.css" />
     <link rel="stylesheet" href="assets/css/footer/footer-contact.css" />
@@ -39,78 +38,42 @@
     <link rel="stylesheet" href="assets/css/formulario.css" />
     <link rel="stylesheet" href="assets/css/formulario/input.css" />
     <link rel="stylesheet" href="assets/css/formulario/textarea.css" />
-    <title>AluraGeek</title>
+    <link rel="stylesheet" href="assets/css/login.css" />
+    <link rel="stylesheet" href="assets/css/login/login-button.css" />
+    <title>Productos</title>
     <link rel="icon" href="assets/img/logo-icon.svg" type="image/x-icon" />
   </head>
   <body>
     <header>
-      <div class="header container">
-        <div class="header__left">
-          <div class="header__logo">
-            <a href="index.html">
-              <img src="assets/img/Logo.svg" alt="Logo de AluraGeek" />
-            </a>
-          </div>
-          <div id="searchbar" class="header__searchbar">
-            <input
-              class="header__searchbar__input"
-              placeholder="¿Qué deseas buscar?"
-              type="text"
-              id="searchbar"
-              data-tipo="search"
-              data-search />
-            <span class="input__message--error">Este campo no es válido</span>
-            <a class="header__search disabled" id="btn-searchBar" href="#"
-              ><i class="fa-solid fa-magnifying-glass"></i
-            ></a>
-          </div>
+      <div class="header__login container">
+        <div class="header__logo">
+          <a href="index.html">
+            <img src="assets/img/Logo.svg" alt="Logo de AluraGeek" />
+          </a>
         </div>
-        <div class="header__btn">
-          <a href="/screens/login.html"><button class="header__btn--login">Login</button></a>
+        <div class="header__searchbar__login">
+          <input
+            class="header__searchbar__input"
+            placeholder="¿Qué deseas buscar?"
+            type="text"
+            id="searchbar"
+            data-tipo="search" />
+          <span class="input__message--error">Este campo no es válido</span>
+          <a class="header__search" href="/screens/search.html"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></a>
         </div>
-        <a class="header__search" href="/screens/search.html"
-          ><i class="fa-solid fa-magnifying-glass disabled-icon"></i
-        ></a>
       </div>
     </header>
     <main>
-      <section class="banner">
-        <div class="banner__img"></div>
-        <span class="banner__text">
-          <p class="banner__text--title">Julio Promocional</p>
-          <p class="banner__text--description">Productos seleccionados con 33% de descuento</p>
-          <button data-btnConsolas class="button--short">Ver Consolas</button>
-        </span>
-      </section>
       <section class="products container">
-        <div class="products__header">
-          <h2 class="products__header__title">Star Wars</h2>
-          <a href="/screens/products-all.html"
-            ><button class="products__header__button">
-              Ver todo <i class="fa-solid fa-arrow-right"></i></button
-          ></a>
+        <div class="products__header--add">
+          <h2 class="products__header__title">Todos los productos</h2>
+          <a href="/screens/product-add.html"
+            ><button class="button__add__product">Agregar producto</button></a
+          >
         </div>
-        <div id="products-starwars" class="products__cards"></div>
-      </section>
-      <section class="products container">
-        <div class="products__header">
-          <h2 id="consolas" class="products__header__title">Consolas</h2>
-          <a href="/screens/products-all.html"
-            ><button class="products__header__button">
-              Ver todo <i class="fa-solid fa-arrow-right"></i></button
-          ></a>
-        </div>
-        <div id="products-consolas" class="products__cards"></div>
-      </section>
-      <section class="products container">
-        <div class="products__header">
-          <h2 class="products__header__title">Diversos</h2>
-          <a href="/screens/products-all.html"
-            ><button class="products__header__button">
-              Ver todo <i class="fa-solid fa-arrow-right"></i></button
-          ></a>
-        </div>
-        <div id="products-diversos" class="products__cards"></div>
+        <div data-product class="products__cards"></div>
       </section>
     </main>
     <footer>
@@ -132,14 +95,14 @@
           </div>
         </div>
         <div class="footer__contact">
-          <form class="formulario">
+          <form action="" class="formulario">
             <legend class="form__label">Hable con nosotros</legend>
             <div class="input__container">
               <input
                 class="input"
                 type="text"
+                class="input"
                 name="nombre"
-                pattern="[\s\S]{0,40}"
                 id="nombre"
                 placeholder="Nombre"
                 required
@@ -158,7 +121,7 @@
               <label for="mensaje" class="input__label--textarea">Escribe tu mensaje</label>
               <span class="textarea__message--error">Este campo no es válido</span>
             </div>
-            <button id="submit" type="submit" class="button--large">Enviar mensaje</button>
+            <button class="button--large">Enviar mensaje</button>
           </form>
         </div>
       </section>
@@ -177,9 +140,8 @@
         </div>
       </section>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script type="module" src="assets/js/search.js"></script>
     <script type="module" src="assets/js/validaciones.js"></script>
-    <script type="module" src="controllers/showCategorie-product-controller.js"></script>
+    <script type="module" src="controllers/product-controller.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </body>
 </html>

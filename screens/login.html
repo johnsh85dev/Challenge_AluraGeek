@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,17 +18,6 @@
     <link rel="stylesheet" href="assets/css/bases.css" />
     <link rel="stylesheet" href="assets/css/buttons.css" />
     <link rel="stylesheet" href="assets/css/header.css" />
-    <link rel="stylesheet" href="assets/css/products.css" />
-    <link rel="stylesheet" href="assets/css/products/products-header.css" />
-    <link rel="stylesheet" href="assets/css/products/products-header-title.css" />
-    <link rel="stylesheet" href="assets/css/products/products-header-button.css" />
-    <link rel="stylesheet" href="assets/css/products/products-cards.css" />
-    <link rel="stylesheet" href="assets/css/products/product-card.css" />
-    <link rel="stylesheet" href="assets/css/products/product-card-icons.css" />
-    <link rel="stylesheet" href="assets/css/products/product-card-img.css" />
-    <link rel="stylesheet" href="assets/css/products/product-card-title.css" />
-    <link rel="stylesheet" href="assets/css/products/product-card-price.css" />
-    <link rel="stylesheet" href="assets/css/products/product-card-id.css" />
     <link rel="stylesheet" href="assets/css/footer.css" />
     <link rel="stylesheet" href="assets/css/footer/footer-about.css" />
     <link rel="stylesheet" href="assets/css/footer/footer-contact.css" />
@@ -39,7 +29,7 @@
     <link rel="stylesheet" href="assets/css/formulario/textarea.css" />
     <link rel="stylesheet" href="assets/css/login.css" />
     <link rel="stylesheet" href="assets/css/login/login-button.css" />
-    <title>Productos</title>
+    <title>AluraGeek - Login</title>
     <link rel="icon" href="assets/img/logo-icon.svg" type="image/x-icon" />
   </head>
   <body>
@@ -55,20 +45,48 @@
             class="header__searchbar__input"
             placeholder="¿Qué deseas buscar?"
             type="text"
-            id="searchbar" />
-          <a class="header__search" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            id="searchbar"
+            data-tipo="search" />
+          <span class="input__message--error">Este campo no es válido</span>
+          <a class="header__search" href="/screens/search.html"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></a>
         </div>
       </div>
     </header>
     <main>
-      <section class="products container">
-        <div class="products__header--add">
-          <h2 class="products__header__title">Todos los productos</h2>
-          <a href="product-add.html"
-            ><button class="button__add__product">Agregar producto</button></a
-          >
-        </div>
-        <div data-product class="products__cards"></div>
+      <section class="login container">
+        <form action="/screens/products-admin.html" method="" class="login__form">
+          <legend class="login__form__label">Iniciar Sesión</legend>
+          <div class="input__container">
+            <input
+              class="input"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Escriba su correo electrónico"
+              required
+              data-tipo="email" />
+            <label for="email" class="input__label">Correo Electrónico</label>
+            <span class="input__message--error">Este campo no es válido</span>
+          </div>
+          <div class="input__container">
+            <input
+              class="input"
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Escriba su contraseña"
+              pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+\-]).{6,12}$"
+              required
+              data-tipo="password" />
+            <label for="password" class="input__label">Contraseña</label>
+            <span class="input__message--error">Este campo no es válido</span>
+          </div>
+          <div class="login__button">
+            <a href="products-admin.html"><button class="login__button--l">Entrar</button></a>
+          </div>
+        </form>
       </section>
     </main>
     <footer>
@@ -136,7 +154,5 @@
       </section>
     </footer>
     <script type="module" src="assets/js/validaciones.js"></script>
-    <script type="module" src="controllers/product-controller.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </body>
 </html>

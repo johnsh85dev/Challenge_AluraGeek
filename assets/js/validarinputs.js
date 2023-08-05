@@ -53,6 +53,10 @@ const mensajesDeError = {
     valueMissing: "Ingrese un precio para el producto",
     patternMismatch: "Solo puede ingresar números",
   },
+
+  search: {
+    valueMissing: "Ingrese parametro de búsqueda",
+  },
 };
 
 const validadores = {

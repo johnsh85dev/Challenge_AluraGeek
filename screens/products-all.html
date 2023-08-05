@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -46,7 +47,7 @@
     <header>
       <div class="header__login container">
         <div class="header__logo">
-          <a href="index.html">
+          <a href="/index.html">
             <img src="assets/img/Logo.svg" alt="Logo de AluraGeek" />
           </a>
         </div>
@@ -55,20 +56,21 @@
             class="header__searchbar__input"
             placeholder="¿Qué deseas buscar?"
             type="text"
-            id="searchbar" />
-          <a class="header__search" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            id="searchbar"
+            data-tipo="search" />
+          <span class="input__message--error">Este campo no es válido</span>
+          <a class="header__search" href="/screens/search.html"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></a>
         </div>
       </div>
     </header>
     <main>
-      <section>
-        <div class="product__content" data-productDescription></div>
-      </section>
       <section class="products container">
         <div class="products__header">
-          <h2 class="products__header__title">Productos similares</h2>
+          <h2 class="products__header__title">Todos los Productos</h2>
         </div>
-        <div data-similarProducts class="products__cards"></div>
+        <div data-products class="products__cards"></div>
       </section>
     </main>
     <footer>
@@ -135,8 +137,8 @@
         </div>
       </section>
     </footer>
-    <script type="module" src="assets/js/validaciones.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script type="module" src="controllers/description-product-controller.js"></script>
+    <script type="module" src="assets/js/validaciones.js"></script>
+    <script type="module" src="controllers/show-product-controller.js"></script>
   </body>
 </html>

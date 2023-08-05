@@ -14,10 +14,10 @@ const showCategorieProduct = (image, name, price, categorie, id) => {
   </div>
   <div class="product__card__text">
     <p class="product__card__title">${name}</p>
-    <p class="product__card__price">$${price}</p>
+    <p class="product__card__price">$ ${price}</p>
     <button class="product__card__button">
     <a data-btnCard 
-    href="/product.html?id=${id}">Ver producto</a>
+    href="/screens/product.html?id=${id}">Ver producto</a>
     </button>
     <p class="product__card__categorie" hidden>${categorie}</p>
     <p class="product__card__id" hidden>${id}</p>

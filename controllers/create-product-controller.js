@@ -13,7 +13,7 @@ formulario.addEventListener("submit", (event) => {
     productServices
       .createProduct(image, nameProduct, priceProduct, categorie, descriptionProduct)
       .then(() => {
-        window.location.href = "/products-admin.html";
+        window.location.href = "/screens/products-admin.html";
       })
       .catch((error) => console.log(error));
   });

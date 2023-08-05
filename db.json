@@ -1,28 +1,17 @@
 {
   "users": [
     {
-      "nombre": "Jonathan Sánchez",
-      "email": "johnsh85@icloud.com",
-      "password": "johnsh85",
+      "nombre": "admin",
+      "email": "admin@aluralatam.com",
+      "password": "Admin123",
       "id": "764aff00-0fe0-44ec-a5c5-a0e6e78eff76"
     }
   ],
-  "categories": [
-    {
-      "name": "Star Wars"
-    },
-    {
-      "name": "Consolas"
-    },
-    {
-      "name": "Diversos"
-    }
-  ],
-  "productos": [
+  "products": [
     {
       "image": "https://raw.githubusercontent.com/johnsh85dev/Challenge_AluraGeek/main/assets/img/StarWars/star-wars-1.png",
       "name": "Taza StarWars",
-      "price": "40.00",
+      "price": "45.00",
       "categorie": "Star Wars",
       "description": "Taza de colección Star Wars figura Captain Phasma, excelente calidad",
       "id": "48624327-b5cd-49e3-8d28-d4a52591b2a2"

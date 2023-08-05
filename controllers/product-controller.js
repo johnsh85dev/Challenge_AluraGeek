@@ -11,7 +11,7 @@ const createNewProduct = (image, name, price, id) => {
       <i class="fa-solid fa-trash"></i>
     </a>
     <a 
-      href="product-edit.html?id=${id}" 
+      href="/screens/product-edit.html?id=${id}" 
       class="edit__product__icon">
       <i class="fa-solid fa-pen"></i>
     </a>
@@ -19,7 +19,7 @@ const createNewProduct = (image, name, price, id) => {
   </div>
   <div class="product__card__text">
   <p class="product__card__title">${name}</p>
-  <p class="product__card__price">$${price}</p>
+  <p class="product__card__price">$ ${price}</p>
   <p class="product__card__id">id: ${id}</p>
   </div>
 `;

@@ -1,5 +1,4 @@
 import { productServices } from "../service/product-service.js";
-// import { showProduct } from "./show-product-controller.js";
 
 const getDetail = async () => {
   const url = new URL(window.location);
@@ -25,7 +24,7 @@ const getDetail = async () => {
      </div>
      <div class="product__description__content">
         <span class="product__title" data-name>${product.name}</span>
-        <span class="product__price" data-price>$${product.price}</span>
+        <span class="product__price" data-price>$ ${product.price}</span>
         <span class="product__categorie" data-categorie hidden></span>
         <span class="product__description" data-description>${product.description}</span>
       </div>
