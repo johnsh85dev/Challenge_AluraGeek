@@ -18,17 +18,17 @@
     <link rel="stylesheet" href="assets/css/bases.css" />
     <link rel="stylesheet" href="assets/css/buttons.css" />
     <link rel="stylesheet" href="assets/css/header.css" />
-    <link rel="stylesheet" href="assets/css/product.css" />
     <link rel="stylesheet" href="assets/css/products.css" />
     <link rel="stylesheet" href="assets/css/products/products-header.css" />
     <link rel="stylesheet" href="assets/css/products/products-header-title.css" />
+    <link rel="stylesheet" href="assets/css/products/products-header-button.css" />
     <link rel="stylesheet" href="assets/css/products/products-cards.css" />
     <link rel="stylesheet" href="assets/css/products/product-card.css" />
     <link rel="stylesheet" href="assets/css/products/product-card-icons.css" />
     <link rel="stylesheet" href="assets/css/products/product-card-img.css" />
     <link rel="stylesheet" href="assets/css/products/product-card-title.css" />
     <link rel="stylesheet" href="assets/css/products/product-card-price.css" />
-    <link rel="stylesheet" href="assets/css/products/product-card-button.css" />
+    <link rel="stylesheet" href="assets/css/products/product-card-id.css" />
     <link rel="stylesheet" href="assets/css/footer.css" />
     <link rel="stylesheet" href="assets/css/footer/footer-about.css" />
     <link rel="stylesheet" href="assets/css/footer/footer-contact.css" />
@@ -40,7 +40,7 @@
     <link rel="stylesheet" href="assets/css/formulario/textarea.css" />
     <link rel="stylesheet" href="assets/css/login.css" />
     <link rel="stylesheet" href="assets/css/login/login-button.css" />
-    <title>AluraGeek - Productos</title>
+    <title>Productos</title>
     <link rel="icon" href="assets/img/logo-icon.svg" type="image/x-icon" />
   </head>
   <body>
@@ -59,7 +59,7 @@
             id="searchbar"
             data-tipo="search" />
           <span class="input__message--error">Este campo no es válido</span>
-          <a class="header__search" href="screens/search.html"
+          <a class="header__search" href="search.html"
             ><i class="fa-solid fa-magnifying-glass"></i
           ></a>
         </div>
@@ -67,10 +67,13 @@
     </header>
     <main>
       <section class="products container">
-        <div class="products__header">
-          <h2 class="products__header__title">Todos los Productos</h2>
+        <div class="products__header--add">
+          <h2 class="products__header__title">Todos los productos</h2>
+          <a href="product-add.html"
+            ><button class="button__add__product">Agregar producto</button></a
+          >
         </div>
-        <div data-products class="products__cards"></div>
+        <div data-product class="products__cards"></div>
       </section>
     </main>
     <footer>
@@ -137,8 +140,8 @@
         </div>
       </section>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script type="module" src="assets/js/validaciones.js"></script>
-    <script type="module" src="controllers/show-product-controller.js"></script>
+    <script type="module" src="controllers/product-controller.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </body>
 </html>

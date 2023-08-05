@@ -63,7 +63,7 @@ formulario.addEventListener("submit", (event) => {
     productServices
       .updateProduct(urlImg, nameProduct, priceProduct, categorieProduct, descriptionProduct, id)
       .then(() => {
-        window.location.href = "screens/products-admin.html";
+        window.location.href = "/products-admin.html";
       })
       .catch((error) => console.log(error));
   });

@@ -14,7 +14,7 @@ const showProduct = (image, name, price, categorie, description, id) => {
     <p class="product__card__description" hidden>${description}</p>
     <button class="product__card__button">
       <a data-btnCard 
-      href="screens/product.html?id=${id}">Ver producto</a>
+      href="product.html?id=${id}">Ver producto</a>
     </button>
    </div>
 `;
