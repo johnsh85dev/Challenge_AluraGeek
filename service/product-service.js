@@ -74,7 +74,7 @@ const showSimilarProduct = (image, name, price, categorie, id) => {
     <p class="product__card__categorie" hidden>${categorie}</p>
     <button class="product__card__button">
       <a data-btnCard 
-      href="product.html?id=${id}">Ver producto</a>
+      href="/product.html?id=${id}">Ver producto</a>
     </button>
     <p class="product__card__id" hidden>${id}</p>
    </div>
