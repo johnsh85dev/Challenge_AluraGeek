@@ -81,8 +81,3 @@ function validarInput(input) {
   }
   input.setCustomValidity(mensaje);
 }
-
-// const searchBar = document.querySelector("[data-search]");
-// searchBar.addEventListener("focus", () => {
-//   searchBar.input.value;
-// });
