@@ -26,3 +26,8 @@
     width: 30vw;
   }
 }
+@media screen and (min-width: 1900px) {
+  .noResults {
+    width: 60vw;
+  }
+}
