@@ -38,13 +38,18 @@ const createNewProduct = (image, name, price, id) => {
     }).then((result) => {
       if (result.isConfirmed) {
         Swal.fire("Excelente!", "El producto fué eliminado correctamente!", "success").then(() => {
-          productServices.deleteProduct(id).catch(() => {
-            Swal.fire({
-              icon: "error",
-              title: "Oops...",
-              text: "Ocurrió un error!",
+          productServices
+            .deleteProduct(id)
+            .then((response) => {
+              location.reload();
+            })
+            .catch(() => {
+              Swal.fire({
+                icon: "error",
+                title: "Oops...",
+                text: "Ocurrió un error!",
+              });
             });
-          });
         });
       }
     });
