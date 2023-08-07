@@ -12,42 +12,42 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
     <script src="https://kit.fontawesome.com/23a046ecd9.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/css/reset.css" />
-    <link rel="stylesheet" href="assets/css/normalize.css" />
-    <link rel="stylesheet" href="assets/css/bases.css" />
-    <link rel="stylesheet" href="assets/css/buttons.css" />
-    <link rel="stylesheet" href="assets/css/header.css" />
-    <link rel="stylesheet" href="assets/css/product.css" />
-    <link rel="stylesheet" href="assets/css/products.css" />
-    <link rel="stylesheet" href="assets/css/products/products-header.css" />
-    <link rel="stylesheet" href="assets/css/products/products-header-title.css" />
-    <link rel="stylesheet" href="assets/css/products/products-cards.css" />
-    <link rel="stylesheet" href="assets/css/products/product-card.css" />
-    <link rel="stylesheet" href="assets/css/products/product-card-icons.css" />
-    <link rel="stylesheet" href="assets/css/products/product-card-img.css" />
-    <link rel="stylesheet" href="assets/css/products/product-card-title.css" />
-    <link rel="stylesheet" href="assets/css/products/product-card-price.css" />
-    <link rel="stylesheet" href="assets/css/products/product-card-button.css" />
-    <link rel="stylesheet" href="assets/css/footer.css" />
-    <link rel="stylesheet" href="assets/css/footer/footer-about.css" />
-    <link rel="stylesheet" href="assets/css/footer/footer-contact.css" />
-    <link rel="stylesheet" href="assets/css/footer/footer-about-logo.css" />
-    <link rel="stylesheet" href="assets/css/footer/footer-about-content.css" />
-    <link rel="stylesheet" href="assets/css/footer/footer-rodapie.css" />
-    <link rel="stylesheet" href="assets/css/formulario.css" />
-    <link rel="stylesheet" href="assets/css/formulario/input.css" />
-    <link rel="stylesheet" href="assets/css/formulario/textarea.css" />
-    <link rel="stylesheet" href="assets/css/login.css" />
-    <link rel="stylesheet" href="assets/css/login/login-button.css" />
+    <link rel="stylesheet" href="../assets/css/reset.css" />
+    <link rel="stylesheet" href="../assets/css/normalize.css" />
+    <link rel="stylesheet" href="../assets/css/bases.css" />
+    <link rel="stylesheet" href="../assets/css/buttons.css" />
+    <link rel="stylesheet" href="../assets/css/header.css" />
+    <link rel="stylesheet" href="../assets/css/product.css" />
+    <link rel="stylesheet" href="../assets/css/products.css" />
+    <link rel="stylesheet" href="../assets/css/products/products-header.css" />
+    <link rel="stylesheet" href="../assets/css/products/products-header-title.css" />
+    <link rel="stylesheet" href="../assets/css/products/products-cards.css" />
+    <link rel="stylesheet" href="../assets/css/products/product-card.css" />
+    <link rel="stylesheet" href="../assets/css/products/product-card-icons.css" />
+    <link rel="stylesheet" href="../assets/css/products/product-card-img.css" />
+    <link rel="stylesheet" href="../assets/css/products/product-card-title.css" />
+    <link rel="stylesheet" href="../assets/css/products/product-card-price.css" />
+    <link rel="stylesheet" href="../assets/css/products/product-card-button.css" />
+    <link rel="stylesheet" href="../assets/css/footer.css" />
+    <link rel="stylesheet" href="../assets/css/footer/footer-about.css" />
+    <link rel="stylesheet" href="../assets/css/footer/footer-contact.css" />
+    <link rel="stylesheet" href="../assets/css/footer/footer-about-logo.css" />
+    <link rel="stylesheet" href="../assets/css/footer/footer-about-content.css" />
+    <link rel="stylesheet" href="../assets/css/footer/footer-rodapie.css" />
+    <link rel="stylesheet" href="../assets/css/formulario.css" />
+    <link rel="stylesheet" href="../assets/css/formulario/input.css" />
+    <link rel="stylesheet" href="../assets/css/formulario/textarea.css" />
+    <link rel="stylesheet" href="../assets/css/login.css" />
+    <link rel="stylesheet" href="../assets/css/login/login-button.css" />
     <title>AluraGeek - Productos</title>
-    <link rel="icon" href="assets/img/logo-icon.svg" type="image/x-icon" />
+    <link rel="icon" href="../assets/img/logo-icon.svg" type="image/x-icon" />
   </head>
   <body>
     <header>
       <div class="header__login container">
         <div class="header__logo">
-          <a href="index.html">
-            <img src="assets/img/Logo.svg" alt="Logo de AluraGeek" />
+          <a href="../index.html">
+            <img src="../assets/img/Logo.svg" alt="Logo de AluraGeek" />
           </a>
         </div>
         <div class="header__searchbar__login">
@@ -58,26 +58,27 @@
             id="searchbar"
             data-tipo="search" />
           <span class="input__message--error">Este campo no es válido</span>
-          <a class="header__search" href="search.html"
-            ><i class="fa-solid fa-magnifying-glass"></i
-          ></a>
+          <a class="header__search" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
         </div>
       </div>
     </header>
     <main>
+      <section>
+        <div class="product__content" data-productDescription></div>
+      </section>
       <section class="products container">
         <div class="products__header">
-          <h2 class="products__header__title">Todos los Productos</h2>
+          <h2 class="products__header__title">Productos similares</h2>
         </div>
-        <div data-products class="products__cards"></div>
+        <div data-similarProducts class="products__cards"></div>
       </section>
     </main>
     <footer>
       <section class="footer container">
         <div class="footer__about">
           <div class="footer__about__logo">
-            <img src="assets/img/logo-icon.svg" alt="logo icon" />
-            <img src="assets/img/logo-text.svg" alt="logo text" />
+            <img src="../assets/img/logo-icon.svg" alt="logo icon" />
+            <img src="../assets/img/logo-text.svg" alt="logo text" />
           </div>
           <div class="footer__about__content">
             <ul class="footer__about__content__list">
@@ -137,7 +138,7 @@
       </section>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script type="module" src="assets/js/validaciones.js"></script>
-    <script type="module" src="controllers/show-product-controller.js"></script>
+    <script type="module" src="../assets/js/validaciones.js"></script>
+    <script type="module" src="../controllers/description-product-controller.js"></script>
   </body>
 </html>

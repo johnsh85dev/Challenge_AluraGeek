@@ -31,7 +31,7 @@ function showResults(results) {
     divEmpty.classList.add("noResults");
 
     const imgNoProduct = document.createElement("img");
-    imgNoProduct.src = "assets/img/fail.png";
+    imgNoProduct.src = "../assets/img/fail.png";
     imgNoProduct.alt = "No se encontró ningún producto";
     divEmpty.appendChild(imgNoProduct);
 
