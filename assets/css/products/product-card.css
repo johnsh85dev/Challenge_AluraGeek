@@ -1,6 +1,6 @@
 .product__card {
   width: 100%;
-  height: auto;
+  max-height: 30vh;
   border: thin solid var(--fuente-ceniza-claro);
   border-radius: 20px;
 }

@@ -3,7 +3,7 @@
   height: auto;
   display: grid;
   grid-template-columns: 49% 49%;
-  grid-auto-rows: minmax(30vh);
+  grid-template-rows: auto auto auto;
   justify-content: space-between;
   gap: 0.5rem;
 }
