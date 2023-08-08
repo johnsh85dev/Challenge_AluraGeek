@@ -1,7 +1,6 @@
 .products__cards {
   width: 100%;
   height: auto;
-  --webkit-height: auto;
   display: grid;
   grid-template-columns: 49% 49%;
   grid-template-rows: auto auto auto;
