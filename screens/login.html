@@ -56,7 +56,7 @@
     </header>
     <main>
       <section class="login container">
-        <form action="products-admin.html" class="login__form">
+        <form class="login__form" id="loginForm">
           <legend class="login__form__label">Iniciar Sesión</legend>
           <div class="input__container">
             <input
@@ -84,9 +84,7 @@
             <span class="input__message--error">Este campo no es válido</span>
           </div>
           <div class="login__button">
-            <a href="screens/products-admin.html"
-              ><button type="submit" class="login__button--l">Entrar</button></a
-            >
+            <a><button type="submit" class="login__button--l">Entrar</button></a>
           </div>
         </form>
       </section>
@@ -110,7 +108,7 @@
           </div>
         </div>
         <div class="footer__contact">
-          <form action="" class="formulario">
+          <form action="" class="formulario" data-Login>
             <legend class="form__label">Hable con nosotros</legend>
             <div class="input__container">
               <input
@@ -158,6 +156,7 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="../assets/js/search2.js"></script>
     <script src="../assets/js/search-active.js"></script>
+    <script src="../assets/js/Login.js"></script>
     <script type="module" src="../assets/js/validaciones.js"></script>
   </body>
 </html>
