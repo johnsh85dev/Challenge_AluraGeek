@@ -64,6 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
           (product) =>
             product.name.toLowerCase().includes(paramSearch.toLowerCase()) ||
             product.price.toLowerCase().includes(paramSearch.toLowerCase()) ||
+            product.categorie.toLowerCase().includes(paramSearch.toLowerCase()) ||
             product.description.toLowerCase().includes(paramSearch.toLowerCase())
         );
         showResults(results);
