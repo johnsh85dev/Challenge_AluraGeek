@@ -44,21 +44,24 @@
   </head>
   <body>
     <header>
-      <div class="header__login container">
+      <div class="header container">
         <div class="header__logo">
           <a href="../index.html">
             <img src="../assets/img/Logo.svg" alt="Logo de AluraGeek" />
           </a>
         </div>
-        <div class="header__searchbar__login">
+        <div class="header__searchbar">
           <input
-            class="header__searchbar__input"
+            class="header__searchbar__input disabled"
             placeholder="¿Qué deseas buscar?"
             type="text"
             id="searchbar"
-            data-tipo="search" />
+            data-tipo="search"
+            data-search />
           <span class="input__message--error">Este campo no es válido</span>
-          <a class="header__search" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+          <a class="header__search" id="btn-searchBar" href="#"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></a>
         </div>
       </div>
     </header>
@@ -140,5 +143,7 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script type="module" src="../assets/js/validaciones.js"></script>
     <script type="module" src="../controllers/product-controller.js"></script>
+    <script src="../assets/js/search2.js"></script>
+    <script src="../assets/js/search-active.js"></script>
   </body>
 </html>

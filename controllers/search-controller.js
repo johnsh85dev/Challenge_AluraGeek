@@ -60,8 +60,11 @@ document.addEventListener("DOMContentLoaded", () => {
     productServices
       .listProducts()
       .then((products) => {
-        const results = products.filter((product) =>
-          product.name.toLowerCase().includes(paramSearch.toLowerCase())
+        const results = products.filter(
+          (product) =>
+            product.name.toLowerCase().includes(paramSearch.toLowerCase()) ||
+            product.price.toLowerCase().includes(paramSearch.toLowerCase()) ||
+            product.description.toLowerCase().includes(paramSearch.toLowerCase())
         );
         showResults(results);
       })
