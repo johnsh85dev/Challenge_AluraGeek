@@ -1,11 +1,11 @@
 const listProducts = async () => {
-  const response = await fetch("https://64d1d50df8d60b174360f121.mockapi.io/products");
+  const response = await fetch("https://alurageek.free.beeceptor.com/products");
   return await response.json();
 };
 
 const createProduct = async (image, name, price, categorie, description) => {
   try {
-    const response = fetch("https://64d1d50df8d60b174360f121.mockapi.io/products", {
+    const response = fetch("https://alurageek.free.beeceptor.com/products", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -32,21 +32,21 @@ const createProduct = async (image, name, price, categorie, description) => {
 };
 
 const deleteProduct = async (id) => {
-  const response = await fetch(`https://64d1d50df8d60b174360f121.mockapi.io/products/${id}`, {
+  const response = await fetch(`https://alurageek.free.beeceptor.com/products/${id}`, {
     method: "DELETE",
   });
   return response;
 };
 
 const detailProduct = (id) => {
-  return fetch(`https://64d1d50df8d60b174360f121.mockapi.io/products/${id}`).then((response) =>
+  return fetch(`https://alurageek.free.beeceptor.com/products/${id}`).then((response) =>
     response.json()
   );
 };
 
 const updateProduct = async (image, name, price, categorie, description, id) => {
   try {
-    const response = await fetch(`https://64d1d50df8d60b174360f121.mockapi.io/products/${id}`, {
+    const response = await fetch(`hhttps://alurageek.free.beeceptor.com/products/${id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
