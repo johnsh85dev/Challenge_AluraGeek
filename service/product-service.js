@@ -1,42 +1,27 @@
-const listProducts = async () => {
-  const response = await fetch("https://64d1f9b9f8d60b174361353b.mockapi.io/products");
-  return await response.json();
+const listProducts = () =>
+  fetch("https://64d1f9b9f8d60b174361353b.mockapi.io/products").then((response) => response.json());
+
+const createProduct = (image, name, price, categorie, description) => {
+  return fetch("https://64d1f9b9f8d60b174361353b.mockapi.io/products", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      image,
+      name,
+      price,
+      categorie,
+      description,
+      id: uuid.v4(),
+    }),
+  });
 };
 
-const createProduct = async (image, name, price, categorie, description) => {
-  try {
-    const response = fetch("https://64d1f9b9f8d60b174361353b.mockapi.io/products", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        image,
-        name,
-        price,
-        categorie,
-        description,
-        id: uuid.v4(),
-      }),
-    });
-    if (await response.ok) {
-      return (await response).body;
-    }
-  } catch (error) {
-    Swal.fire({
-      icon: "error",
-      title: "Oops...",
-      text: "Ocurrió un error!",
-    });
-  }
-};
-
-const deleteProduct = async (id) => {
-  const response = await fetch(`https://64d1f9b9f8d60b174361353b.mockapi.io/products/${id}`, {
+const deleteProduct = (id) =>
+  fetch(`https://64d1f9b9f8d60b174361353b.mockapi.io/products/${id}`, {
     method: "DELETE",
   });
-  return response;
-};
 
 const detailProduct = (id) => {
   return fetch(`https://64d1f9b9f8d60b174361353b.mockapi.io/products/${id}`).then((response) =>
@@ -44,24 +29,22 @@ const detailProduct = (id) => {
   );
 };
 
-const updateProduct = async (image, name, price, categorie, description, id) => {
-  try {
-    const response = await fetch(`https://64d1f9b9f8d60b174361353b.mockapi.io/products/${id}`, {
-      method: "PUT",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ image, name, price, categorie, description, id }),
+const updateProduct = (image, name, price, categorie, description, id) =>
+  fetch(`https://64d1f9b9f8d60b174361353b.mockapi.io/products/${id}`, {
+    method: "PUT",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ image, name, price, categorie, description, id }),
+  })
+    .then((response) => response)
+    .catch((error) => {
+      Swal.fire({
+        icon: "error",
+        title: "Oops...",
+        text: "Ocurrió un error!",
+      });
     });
-    return response;
-  } catch (error) {
-    Swal.fire({
-      icon: "error",
-      title: "Oops...",
-      text: "Ocurrió un error!",
-    });
-  }
-};
 
 const showSimilarProduct = (image, name, price, categorie, id) => {
   const product = document.createElement("div");
