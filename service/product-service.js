@@ -1,11 +1,11 @@
 const listProducts = async () => {
-  const response = await fetch("https://alurageek.free.beeceptor.com/products");
+  const response = await fetch("http://localhost:3000/products");
   return await response.json();
 };
 
 const createProduct = async (image, name, price, categorie, description) => {
   try {
-    const response = fetch("https://alurageek.free.beeceptor.com/products", {
+    const response = fetch("http://localhost:3000/products", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -32,21 +32,19 @@ const createProduct = async (image, name, price, categorie, description) => {
 };
 
 const deleteProduct = async (id) => {
-  const response = await fetch(`https://alurageek.free.beeceptor.com/products/${id}`, {
+  const response = await fetch(`http://localhost:3000/products/${id}`, {
     method: "DELETE",
   });
   return response;
 };
 
 const detailProduct = (id) => {
-  return fetch(`https://alurageek.free.beeceptor.com/products/${id}`).then((response) =>
-    response.json()
-  );
+  return fetch(`http://localhost:3000/products/${id}`).then((response) => response.json());
 };
 
 const updateProduct = async (image, name, price, categorie, description, id) => {
   try {
-    const response = await fetch(`hhttps://alurageek.free.beeceptor.com/products/${id}`, {
+    const response = await fetch(`http://localhost:3000/products/${id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
