@@ -2,15 +2,15 @@
   width: 100%;
   height: auto;
   display: grid;
-  grid-template-columns: 49% 49%;
-  grid-template-rows: 30vh;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
   justify-content: space-between;
-  gap: 0.5rem;
+  gap: 1rem 1rem;
 }
 
 @media screen and (min-width: 768px) {
   .products__cards {
-    grid-template-columns: 22.5% 22.5% 22.5% 22.5%;
+    grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto;
     justify-content: space-between;
   }
@@ -18,7 +18,7 @@
 
 @media screen and (min-width: 1200px) {
   .products__cards {
-    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    grid-template-columns: auto auto auto auto auto auto;
     grid-template-rows: auto;
     justify-content: space-between;
   }

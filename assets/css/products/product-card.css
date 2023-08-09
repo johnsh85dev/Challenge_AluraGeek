@@ -1,6 +1,8 @@
 .product__card {
   width: 100%;
-  max-height: 30vh;
+  min-width: 156px;
+  min-height: 252px;
+  max-height: 35vh;
   border: thin solid var(--fuente-ceniza-claro);
   border-radius: 20px;
 }
