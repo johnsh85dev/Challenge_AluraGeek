@@ -57,6 +57,7 @@
 .textarea__container--invalid .textarea__message--error {
   display: block;
   color: var(--fuente-failure);
+  font-size: 13px;
   position: relative;
   top: -1.3rem;
   padding: 0.5rem;

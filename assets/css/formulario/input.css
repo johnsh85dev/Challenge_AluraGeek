@@ -66,6 +66,7 @@
 
 .input__container--invalid .input__message--error {
   color: var(--fuente-failure);
+  font-size: 13px;
   display: block;
   position: relative;
   top: -1.7rem;
