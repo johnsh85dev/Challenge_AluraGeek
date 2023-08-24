@@ -51,14 +51,7 @@ const getDetail = async () => {
             similarCetegorie === "Consolas" &&
             idCurrentProduct != id
           ) {
-            const product = productServices.showSimilarProduct(
-              image,
-              name,
-              price,
-              categorie,
-
-              id
-            );
+            const product = productServices.showSimilarProduct(image, name, price, categorie, id);
             similarProducts.appendChild(product);
           }
           if (
@@ -66,14 +59,7 @@ const getDetail = async () => {
             similarCetegorie === "Diversos" &&
             idCurrentProduct != id
           ) {
-            const product = productServices.showSimilarProduct(
-              image,
-              name,
-              price,
-              categorie,
-
-              id
-            );
+            const product = productServices.showSimilarProduct(image, name, price, categorie, id);
             similarProducts.appendChild(product);
           }
         });

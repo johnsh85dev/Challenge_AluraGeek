@@ -2,7 +2,6 @@
   width: 100%;
   min-width: 156px;
   min-height: 249px;
-  /* max-height: 35vh; */
   border: thin solid var(--fuente-ceniza-claro);
   border-radius: 20px;
 }
